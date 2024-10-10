@@ -1,9 +1,10 @@
-.gradient {
+/*.gradient {
    background-image: url( '../Assets/vanishing-stripes.svg' );
-}
+}*/
 
 body, html {
    font-family: 'Anonymous Pro', monospace;
+   background-color: #0a2351;
    height: 100%;
 }
 

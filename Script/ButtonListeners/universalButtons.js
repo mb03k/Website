@@ -1,5 +1,5 @@
-document.getElementById("headerListButton").onclick = function() {
-    openList();
+document.getElementById("headerHomeButton").onclick = function() {
+    goHome();
 }
 
 document.getElementById("headerInstagramButton").onclick = function() {
@@ -11,11 +11,11 @@ document.getElementById("headerGithubButton").onclick = function() {
 }
 
 document.getElementById("portfolio_button").onclick = function() {
-    console.log("portfolio_button_click");
+    console.log("HAllo");
 }
 
-function openList() {
-    console.log("openList()");
+function goHome() {
+    console.log("Home-Seite anzeigen ... warte auf echte IP ... ");
 }
 
 function openInstagram() {

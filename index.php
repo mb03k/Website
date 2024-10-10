@@ -86,7 +86,7 @@
 
         <div class="container">
             Footer
-            <button><a href="readspeed.php">ReadSpeed testen</a></button>
+            <button><a href="../readspeed">ReadSpeed testen</a></button>
         </div>
 
     </div>
