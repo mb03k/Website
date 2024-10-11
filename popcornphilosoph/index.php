@@ -21,12 +21,16 @@
     <div>
         <div class="container">
             <h1>So weit musste es ja kommen. Ich nehme Titelvorschläge von ChatGPT an...
-                naja - ich sollte mich nicht wehren. Hier ist euer <i>PopcornPhilosoph</i></an></h1>
+                naja - ich sollte mich nicht wehren. Hier ist euer <i>PopcornPhilosoph</i></h1>
+
+            <span>
+                Also, was mache ich hier? Ich stelle euch Filme vor!
+                Genauer gesagt meine Liste an Filmen die ich u.A. gesehen habe, oder sehen möchte...
+                Los gehts!
+            </span>
         </div>
         
-        <div class="container">
-            Footer
-        </div>
+        <?php include '../html/footer.php'; ?>
 
     </div>
 
