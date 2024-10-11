@@ -93,10 +93,15 @@
         </div>
 
         <div class="container">
+            <span>Es gibt sehr viel über mich. Ich habe unglaublich viele Ideen was ich hier
+                alles 'veröffentlichen' kann (in Klammern, weil es realistisch gesehen niemanden interessieren
+                wird). Wie wäre es mit - zugegebenermaßen - einer sehr schönen Auswahl an Filmen?
+            </span>
+
             <button class="btn btn-dark" id="read_speed_link">ReadSpeed testen</button>
-            <br>
-            Footer
         </div>
+
+        <?php include 'html/footer.php'; ?>
 
     </div>
 
