@@ -1,6 +1,6 @@
 const outputDiv = document.getElementById("upspeadedText");
 
-document.getElementById("get_input_text_button").onclick = function() {
+function handleTextInput() {
     let inTxt;
     let splittetTxt = [];
     let finalTxt;
@@ -8,6 +8,14 @@ document.getElementById("get_input_text_button").onclick = function() {
     inTxt = getInputText();
     splittetTxt = splitInputText(inTxt);
     finalTxt = setBoldings(splittetTxt); 
+
+    // show or hide the spinner when button is clicked
+    if (inTxt != "") {
+        showOrHideUpspeadedText_spinner(true);
+    } else {
+        showOrHideUpspeadedText_spinner(false);
+    }
+    
     writeToBody(finalTxt);
 }
 
@@ -31,11 +39,21 @@ function setBoldings(splittetTxt) {
         let secondHalf = [];
 
         for (let i=0; i<range; i++) {
-            firstHalf.push(wordOfText[i]);
+            if (wordOfText[i] == "<") {
+                firstHalf.push("&lt");
+            } else {
+                firstHalf.push(wordOfText[i]);
+            }
+            console.log(wordOfText[i]);
         }
 
         for (let i=range; i<wordOfText.length; i++) {
-            secondHalf.push(wordOfText[i])
+            if (wordOfText[i] == "<") {
+                secondHalf.push("&lt");
+            } else {
+                secondHalf.push(wordOfText[i])
+            }
+            console.log(wordOfText[i]);
         }
 
         let first = firstHalf.join("");
@@ -81,4 +99,9 @@ function showOrHide_HIW_technical() {
         document.getElementById("hiw_technical_text").hidden = true;
         document.getElementById("hiw_technical_empty").hidden = false;
     }
+}
+
+function showOrHideUpspeadedText_spinner(state) {
+    console.log("state = "+state);
+    document.getElementById("upspeadedText_spinner").hidden = state;
 }

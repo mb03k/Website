@@ -19,28 +19,17 @@
 
 <body class="gradient">
     <div>
+        
         <?php include '../html/header.php'; ?>
+
         
         <div class="container">
-            <div class="project_chess">
-                <!-- 
-                    in meiner Vorstellung:
-                    links ein Bild, der Rest mit einer Erklärung oder sonstigem gefüllt
-                -->
-                <?php include 'p_schach.php'; ?>
-            </div>
-
-            <div class="project_checkers">
-                <?php include 'p_dame.php'; ?>
-            </div>
-
-            <div class="project_website">
-                <?php include 'p_taschenrechner.php'; ?>
-            </div>
-
-            <div class="project_calculator">
-                <?php include 'p_taschenrechner.php'; ?>
-            </div>
+            <h1>Zitat meiner ersten Notizen zu dieser Seite:</h1>
+            <h3>
+                "Wie wäre es mit der Geschichte ohne Instagram zu leben?
+                <br>
+                Instagram zu löschen und den Weg dabei zu dokumentieren?""
+            </h3>
         </div>
 
         <?php include 'p_multimengen.php'; ?>

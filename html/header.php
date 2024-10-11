@@ -1,4 +1,5 @@
-<?php echo('<header class="bg-dark">
+<?php echo('
+<header class="bg-dark">
     <div class="header-container">
         <div class="logo">
             <a href="" class="icon">
@@ -19,4 +20,5 @@
             </a>
         </nav>
     </div>
-</header>');
+</header>'
+);

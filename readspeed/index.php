@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">
     <link rel="stylesheet" href="../Style/style.css">
     <link rel="stylesheet" href="../Style/header.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <!--<link rel="stylesheet" href="Style/homeScreenAnimations.css"> bereitet in der Form Design-Fehler (out-of-bildschirm)-->
 </head>
 
@@ -21,18 +25,29 @@
         <i class="fa-solid fa-user"></i>
 
         <div class="container">
-            <h2 class="text-light">Texte schneller lesen können... aber wie?!</h2>
-            <br>
+            <h2 class="text-light" style='margin-top:10px; line-height:0.95em; font-size: 4em; font-family: "Bebas Neue", sans-serif; font-weight: 400; font-style: normal;'>
+                Texte schneller lesen können... aber wie?!
+            </h2>
             <h2 class="text-light">Finde es heraus: gib einfach einen etwas längeren Text ein und lass ihn dir anzeigen</h2>
-            <textarea class="textarea form-control" id="input_text_readspeed" placeholder="Lorem ipsum..."></textarea>
-            <button class="btn btn-dark" id="get_input_text_button">Anzeigen</button>
+            <textarea class="textarea form-control" id="input_text_readspeed" placeholder="Lorem ipsum..." rows="6"></textarea>
+            <button class="btn btn-success" id="get_input_text_button">Anzeigen</button>
+
+            <br>
+            <br>
+
             <h3 class="text-light">Dein Text - den du (hoffentlich) schneller lesen kannst:</h3>
 
-            <div class="bg-light" style="border-radius:10px;">
-                <h2 class="text-dark" id="upspeadedText"></h2>
-            </div>
+            <div class="bg-light text-center" style="border-radius:10px;">
+                <h3 class="text-dark" id="upspeadedText"></h3>
 
-            <button class="btn btn-dark" id="how_it_works_button">Wie funktioniert es?</button>
+                <div class="spinner-border text-success" id="upspeadedText_spinner" style="margin:0.2em;width: 2rem; height: 2rem;" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+            
+            <br>
+
+            <button class="btn btn-dark" id="how_it_works_button">Wie funktioniert das?</button>
 
             <div id="hiw_empty">
             </div>
@@ -44,7 +59,7 @@
                     Ich kann mich nicht mehr genau an die Begründung erinnern. Aber sie ging ansatzweise folgendermaßen:
                     A: Das Gehirn kann die Wörter durch die dick geschriebenen Anfangsbuchstaben besser trennen / auseinanderhalten.
                     B: Dieses auseinanderhalten hilft demnach u.A. dabei, die dick geschriebenen Buchstaben direkt zu identifizieren
-                    und die Bedeutung des Wortes, ohne es ganz lesen zu müssen, schnell zu verstehen 
+                    und die Bedeutung des Wortes, ohne es ganz lesen zu müssen, schneller zu verstehen 
                 </span>
 
                 <br>
@@ -53,18 +68,19 @@
                 <div id="hiw_technical_empty"></div>
                 <div class="text-white" id="hiw_technical_text" hidden>
                     <span>
-                        Ich habe es mir relativ leicht gemacht... <a href="">hier</a> kannst du den Quellcode ansehen
+                        Ich habe es mir relativ leicht gemacht... <a href="https://github.com/mb03k/Website/blob/main/Script/ReadSpeed/readSpeed.js" target="_blank">hier</a> kannst du den Quellcode ansehen
                         <br>
                         Mein Ansatz ist, dass man alle Wörter aufteilt und jedes Wort in einem Array (genauer: ArrayList<String>)
                         speichert. Das getan, läuft man in einer For-Each Schleife die gesamten Wörter durch. Bei jedem Durchlauf wird
-                        die Länge des Wortes angeschaut und damit berechnet, bis wohin der dick-geschriebene Text gehen soll. Nach dieser 
+                        die Länge des Wortes angeschaut und damit berechnet, bis wohin der dick-geschriebene Text gehen soll (es sollen
+                        67% der Buchstaben dick sein). Nach dieser 
                         Berechnung läuft man in zwei weiteren For-Schleifen das Wort durch. Die erste For-Schleife setzt ein &ltb&gt an den Anfang
                         (für den dick-geschriebenen Text) und geht
                         so weit, bis man nicht mehr dick schreiben muss, setzt ein &lt/b&gt und speichert jeden Charakter in einem weiteren Array ab. 
                         Sobald diese Schleife durch ist, fängt die zweite an. Diese nimmt nur noch die restlichen Buchstaben 
                         des Wortes und fügt sie hinzu
                         <br>
-                        Danach fügt man diesen Array zu einem String zusammen und schreibt diesen in das DOM. 
+                        Danach fügt man diesen Array zu einem String zusammen und schreibt diesen in das DOM
                     </span>
                 </div>
             </div>
@@ -82,6 +98,4 @@
     <script type="application/x-javascript" src="../Script/ReadSpeed/readSpeed.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
-
-
 </html>

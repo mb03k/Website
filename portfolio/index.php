@@ -22,33 +22,44 @@
         <?php include '../html/header.php'; ?>
         
         <div class="container">
-            <div class="project_chess">
-                <!-- 
-                    in meiner Vorstellung:
-                    links ein Bild, der Rest mit einer Erklärung oder sonstigem gefüllt
-                -->
-                <?php include 'p_schach.php'; ?>
+            <div class="">Sehr geehrte Damen und Herren,
+                <br>
+                <br>
+                je nachdem wie viel Sie bisher von meiner Website gesehen haben, muss ich hier sagen:
+                <br>
+                auch wenn vieles lustig erscheinen mag, kann ich auch ernst. Ich bin eine sehr ironische 
+                Person in meinem privaten Umfeld. Jedoch hält mich das in keinster Weise davon ab, in
+                professioneller Art und Weise mit meinen Mitmenschen umzugehen.
+                Demnach möchte ich Sie in Ihrem 'privaten' Bereich meiner Website davon überzeugen.
+                <br><br>
+                Allem in allem möchte ich auf meiner <i>öffentlichen</i> Website etwas privatsphäre
+                beibehalten. Demnach ist der weitere Zugang nur für Sie mit dem richtigen 
+                Code zugänglich, den ich Ihnen in meiner Bewerbung beigefügt habe.
+                Geben Sie diesen ein und werden Sie ganz einfach weitergeleitet.
+
+                <br><br>
+
+                Mit freundlichen Grüßen
+                <br><br>
+                Matthes Böttcher
+                <br><br>
             </div>
 
-            <div class="project_checkers">
-                <?php include 'p_dame.php'; ?>
-            </div>
+            <div class="container d-flex flex-column">
+                <div class="d-flex justify-content-center">
+                    <input type="email" class="form-control w-25" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="4A6z...">
+                </div>
 
-            <div class="project_website">
-                <?php include 'p_taschenrechner.php'; ?>
-            </div>
-
-            <div class="project_calculator">
-                <?php include 'p_taschenrechner.php'; ?>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary w-25">Senden</button>
+                </div>
             </div>
         </div>
 
-        <?php include 'p_multimengen.php'; ?>
-        
+
         <div class="container">
             Footer
         </div>
-
     </div>
 
     <script type="application/x-javascript" src="../Script/ButtonListeners/universalButtons.js"></script>

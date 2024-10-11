@@ -1,0 +1,27 @@
+.yoSoyMatthes {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.projectsContainer {
+    max-width: 96%;
+    height:80%; background-color:#b3e5fc;
+    border-radius: 40px;
+    opacity: 0.8;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.projectsContainer:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    background-color: #8ddbff;
+}
+
+#educationalPath {
+    transition: background-color 1s ease; /* Übergang für die Hintergrundfarbe */
+}
+
+#educationalPath:active {
+    transition: 0.15s;
+    background-color: #FF2600;
+}

@@ -11,7 +11,7 @@ document.getElementById("headerGithubButton").onclick = function() {
 }
 
 document.getElementById("portfolio_button").onclick = function() {
-    console.log("HAllo");
+    openCompanyPortfolio();
 }
 
 function goHome() {
@@ -24,4 +24,9 @@ function openInstagram() {
 
 function openGithub() {
     window.open("https://www.github.com/mb03k/");
+}
+
+function openCompanyPortfolio() {
+    console.log("openn");
+    window.open("http://localhost/Website/portfolio/", "_self");
 }

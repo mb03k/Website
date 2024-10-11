@@ -19,31 +19,10 @@
 
 <body class="gradient">
     <div>
-        <?php include '../html/header.php'; ?>
-        
         <div class="container">
-            <div class="project_chess">
-                <!-- 
-                    in meiner Vorstellung:
-                    links ein Bild, der Rest mit einer Erklärung oder sonstigem gefüllt
-                -->
-                <?php include 'p_schach.php'; ?>
-            </div>
-
-            <div class="project_checkers">
-                <?php include 'p_dame.php'; ?>
-            </div>
-
-            <div class="project_website">
-                <?php include 'p_taschenrechner.php'; ?>
-            </div>
-
-            <div class="project_calculator">
-                <?php include 'p_taschenrechner.php'; ?>
-            </div>
+            <h1>So weit musste es ja kommen. Ich nehme Titelvorschläge von ChatGPT an...
+                naja - ich sollte mich nicht wehren. Hier ist euer <i>PopcornPhilosoph</i></an></h1>
         </div>
-
-        <?php include 'p_multimengen.php'; ?>
         
         <div class="container">
             Footer
