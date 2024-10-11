@@ -47,7 +47,7 @@
 
             <div class="container d-flex flex-column">
                 <div class="d-flex justify-content-center">
-                    <input type="email" class="form-control w-25" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="4A6z...">
+                    <input type="email" class="form-control w-25" style="height: 4em;"id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="4A6z...">
                 </div>
 
                 <div class="d-flex justify-content-center">
@@ -56,10 +56,7 @@
             </div>
         </div>
 
-
-        <div class="container">
-            Footer
-        </div>
+        <?php include '../html/footer.php'; ?>
     </div>
 
     <script type="application/x-javascript" src="../Script/ButtonListeners/universalButtons.js"></script>
