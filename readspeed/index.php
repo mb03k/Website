@@ -29,7 +29,9 @@
                 Texte schneller lesen können... aber wie?!
             </h2>
             <h2 class="text-light">Finde es heraus: gib einfach einen etwas längeren Text ein und lass ihn dir anzeigen</h2>
-            <textarea class="textarea form-control" id="input_text_readspeed" placeholder="Lorem ipsum..." rows="6"></textarea>
+            <textarea class="textarea form-control" id="input_text_readspeed" rows="6">
+Das ist eine Geschichte. Sie geht über Hoffnung. Als ich klein war, hatte ich nämlich einen Traum: schneller als jeder lesen zu können. Leider konnte ich es nie. Aber gut. Ich habe auch nie freiwillig gelesen. Aber jetzt lese ich sogar! Es gibt echt gute Bücher... bspw. war mein letztes Buch 'Verbrechen' von Ferdinand von Schirach. Sehr gut geschrieben. So wie dieser Text. Nur ein Scherz. Ich wünschte ich könnte mich auch so flüssig formulieren. Auf der anderen Seite sitze ich aber gerade hier: in Leipzig an einem Samstag um 16:43, schreibe diesen Text, während ich Musik höre und mein Mitbewohner gerade schläft. Warum sage ich das alles? Keine Ahnung. Das hat keinen Sinn. Aber es füllt den Text, den du gerade (hoffentlich) schneller lesen kannst :)
+            </textarea>
             <button class="btn btn-success" id="get_input_text_button">Anzeigen</button>
 
             <br>
