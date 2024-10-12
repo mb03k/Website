@@ -27,6 +27,5 @@ function openGithub() {
 }
 
 function openCompanyPortfolio() {
-    console.log("openn");
     window.open("http://localhost/Website/portfolio/", "_self");
 }

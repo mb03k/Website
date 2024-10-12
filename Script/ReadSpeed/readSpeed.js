@@ -105,3 +105,7 @@ function showOrHideUpspeadedText_spinner(state) {
     console.log("state = "+state);
     document.getElementById("upspeadedText_spinner").hidden = state;
 }
+
+function selectTextarea() {
+    document.getElementById("input_text_readspeed").select();
+}

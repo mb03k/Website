@@ -13,3 +13,7 @@ document.getElementById("hiw_technical_button").onclick = function() {
 document.getElementById("get_input_text_button").onclick = function() {
     handleTextInput();
 }
+
+document.getElementById("input_text_readspeed").onclick = function() {
+    selectTextarea();
+}

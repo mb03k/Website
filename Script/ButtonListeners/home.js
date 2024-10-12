@@ -1,4 +1,4 @@
-document.getElementById("read_speed_link").onclick = function() {
+document.getElementById("readspeed_button").onclick = function() {
     window.open("http://localhost/Website/readspeed", "_self");
 }
 
