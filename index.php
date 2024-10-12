@@ -30,7 +30,7 @@
             <br>
 
             <div class="row text-dark text-center" style="display:flex;align-items: center; height:100%;">
-                <div class="col-lg m-2 projectsContainer">
+                <div class="col-md m-2 projectsContainer">
                     <div class="col">
                         <div class="rowOneCurrentProjects" id="currentProjects">
                             <h1>Aktuelle Projekte</h1>
@@ -92,17 +92,27 @@
             </div>
         </div>
 
+
         <div class="container">
             <span>Es gibt sehr viel über mich. Ich habe unglaublich viele Ideen was ich hier
                 alles 'veröffentlichen' kann (in Klammern, weil es realistisch gesehen niemanden interessieren
                 wird). Wie wäre es mit - zugegebenermaßen - einer sehr schönen Auswahl an Filmen?
             </span>
 
-            <button class="btn btn-dark" id="read_speed_link">ReadSpeed testen</button>
+            <button class="btn btn-dark" onclick='window.open("404/index.php", "_self")'>404</button>
+            <button class="btn btn-dark" onclick='window.open("aboutme/index.php", "_self")'>aboutme</button>
+            <button class="btn btn-dark" onclick='window.open("aboutme/aberbitteohneinstagram/index.php", "_self")'>aboutme/aberbitteohneinstagram</button>
+            <button class="btn btn-dark" onclick='window.open("bucketlist/index.php", "_self")'>bucketlist</button>
+            <button class="btn btn-dark" onclick='window.open("FAQ/index.php", "_self")'>faq</button>
+            <button class="btn btn-dark" onclick='window.open("popcornphilosoph/index.php", "_self")'>popcornphilosoph</button>
+            <button class="btn btn-dark" onclick='window.open("projekte/index.php", "_self")'>projekte</button>
+
+            <span>Willst du etwas <a href="#" id="readspeed_button">cooles</a> sehen?</span>
         </div>
 
-        <?php include 'html/footer.php'; ?>
 
+
+        <?php include 'html/footer.php'; ?>
     </div>
 
     <script type="application/x-javascript" src="Script/ButtonListeners/universalButtons.js"></script>

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">
     <link rel="stylesheet" href="../Style/style.css">
     <link rel="stylesheet" href="../Style/header.css">
+    <link rel="stylesheet" href="../Style/popcornphilosoph.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,100 +23,169 @@
         <?php include '../html/header.php'; ?>
         <div class="container">
             <h1>So weit musste es ja kommen. Ich nehme Titelvorschläge von ChatGPT an...
-                naja - ich sollte mich nicht wehren. Hier ist euer <i>PopcornPhilosoph</i></h1>
+                naja - ich sollte mich nicht wehren.er ist euer <i>PopcornPhilosoph</i></h1>
 
             <span>
-                Also, was mache ich hier? Ich stelle euch Filme vor!
-                Genauer gesagt meine Liste an Filmen die ich u.A. gesehen habe, oder sehen möchte...
-                Los gehts!
+                Also, was mache icher? Ich stelle euch Filme vor!
+                Irgendwann werde ich die Filme in einer Datenbank speichern und eine Sortierung
+                einbauen. Aber das kann noch dauern :D
+                <br>
+                Deshalb sortiere ich die Filme nach möchtegern Genres
+                <br>
+                <br>
+            </span>
+
+            <span>
+                Aber zuerst meine TOP-Empfehlungen (für mich must-watch):
+                <br>
+                1. Eternal Sunshine of the Spotless mind
+                <br>
+                2. Shutter Island
+                <br>
+                3. Requiem for a Dream -> wer einen <i>sehr</i> mitreißenden Film sucht
+                <br>
             </span>
         </div>
 
-        <div class="container">
-            <div class="row justify-content-center mb-4">
-                <div class="col-6 col-md-3">
-                    <img src="../Assets/movies/butterfly_effect.jpg" class="img-fluid hi" alt="Responsive image">
-                    <div class="">Butterfly Effect</div>
+        <div class="container justify-content-center mt-4">
+            <div class="container text-center">
+                <div>
+                    <span class="genre_title" style="font-size:3em;">😃Comedy</span>
                 </div>
-                <div class="col-6 col-md-3">
-                    <img src="../Assets/movies/borat.jpg" class="img-fluid hi" alt="Responsive image">
-                    <div class="">Borat</div>
+
+                <div class="row justify-content-center">
+                    <div class="movie_class col-6 col-md-3 bg-success" style="--bs-bg-opacity: .9;">
+                        <img src="../Assets/movies/harold_kumar_white_castle.jpg" class="img-fluid mt-2" alt="Responsive image">
+                        <div class="movie_title">Harold & Kumar - White Castle</div>
+                    </div>
+                    <div class="movie_class col-6 col-md-3 bg-success" style="--bs-bg-opacity: .8;">
+                        <img src="../Assets/movies/harold_kumar_escape_from_guantanamo.jpg" class="img-fluid mt-2" alt="Responsive image">
+                        <div class="movie_title">Harold & Kumar - Escape from Guantanamo Bay</div>
+                    </div>
+                    <div class="movie_class col-6 col-md-3 bg-success" style="--bs-bg-opacity: .7;">
+                        <img src="../Assets/movies/harold_kumar_christmas.jpg" class="img-fluid mt-2" alt="Responsive image">
+                        <div class="movie_title">Harold & Kumar - Christmas</div>
+                    </div>
                 </div>
-                <div class="col-6 col-md-3">
-                    <img src="../Assets/movies/eternal_sunshine_of_the_spotless_mind.jpg" class="img-fluid hi" alt="Responsive image">
-                    <div class="">Eternal Sunshine of the Spotless Mind</div>
+
+                <div class="row justify-content-center">
+                    <div class="movie_class col-6 col-md-3 mt-3 bg-success" style="--bs-bg-opacity: .6;">
+                        <img src="../Assets/movies/ghost_movie_1.jpg" class="img-fluid mt-2" alt="Responsive image">
+                        <div class="movie_title">Ghost Movie 1</div>
+                    </div>
+                    <div class="movie_class col-6 col-md-3 mt-3 bg-success" style="--bs-bg-opacity: .5;">
+                        <img src="../Assets/movies/ghost_movie_2.jpg" class="img-fluid mt-2" alt="Responsive image">
+                        <div class="movie_title">Ghost Movie 2</div>
+                    </div>
+                    <div class="movie_class col-6 col-md-3 mt-3 bg-success" style="--bs-bg-opacity: .4;">
+                        <img src="../Assets/movies/million_ways_to_die_in_the_west.jpg" class="img-fluid mt-2" alt="Responsive image">
+                        <div class="movie_title">A Million Ways To Die In The West</div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="movie_class col-6 col-md-3 mt-3 bg-success" style="--bs-bg-opacity: .3;">
+                        <img src="../Assets/movies/borat.jpg" class="img-fluid mt-2" alt="Responsive image">
+                        <div class="movie_title">Borat</div>
+                    </div>
+                    <div class="text-center movie_class col-6 col-md-3 mt-3 bg-success" style="--bs-bg-opacity: .2;">
+                        <img src="../Assets/movies/central_intelligence.jpg" class="img-fluid mt-2" alt="Responsive image">
+                        <div class="movie_title">Central Intelligence</div> 
+                    </div>
+                    <div class="text-center movie_class col-6 col-md-3 mt-3 bg-success" style="--bs-bg-opacity: .1;">
+                        <img src="../Assets/movies/night_school.jpg" class="img-fluid mt-2" alt="Responsive image">
+                        <div class="movie_title">Night School</div> 
+                    </div>
                 </div>
             </div>
 
-            <div class="row justify-content-center mb-4">
-                <div class="col-6 col-md-3">
-                    <img src="../Assets/movies/ghost_movie_1.jpg" class="img-fluid hi" alt="Responsive image">
-                    <div class="">Ghost Movie 1</div>
+            <br>
+            <br>
+            <hr style="border-width: 0.5vh; width: 90%; margin:auto;">
+            <br>
+
+            <div class="container text-center">
+                <div>
+                    <span class="genre_title" style="font-size:3em;">😱Action</span>
                 </div>
-                <div class="col-6 col-md-3">
-                    <img src="../Assets/movies/ghost_movie_2.jpg" class="img-fluid hi" alt="Responsive image">
-                    <div class="">Ghost Movie 2</div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <img src="../Assets/movies/hereditary.jpg" class="img-fluid hi" alt="Responsive image">
-                    <div class="">Hereditary</div>
-                </div>
-            </div>
-            <div class="row justify-content-center mb-4">
-                <div class="col-6 col-md-3">
-                    <img src="../Assets/movies/harold_kumar_white_castle.jpg" class="img-fluid hi" alt="Responsive image">
-                    <div class="">Harold & Kumar - White Castle</div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <img src="../Assets/movies/harold_kumar_escape_from_guantanamo.jpg" class="img-fluid hi" alt="Responsive image">
-                    <div class="">Harold & Kumar - Escape from Guantanamo Bay</div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <img src="../Assets/movies/harold_kumar_christmas.jpg" class="img-fluid hi" alt="Responsive image">
-                    <div class="">Harold & Kumar - Christmas</div>
+
+                <div class="row justify-content-center">
+                    <div class="movie_class col-6 col-md-3 mt-3 bg-warning" style="--bs-bg-opacity: .8;">
+                        <img src="../Assets/movies/man_from_toronto.jpg" class="img-fluid mt-2" alt="Responsive image">
+                        <div class="movie_title">Man from Toronto</div>
+                    </div>
+                    <div class="movie_class col-6 col-md-3 mt-3 bg-warning" style="--bs-bg-opacity: .6;">
+                        <img src="../Assets/movies/lift.jpg" class="img-fluid mt-2" alt="Responsive image">
+                        <div class="movie_title">Lift</div>
+                    </div>
+                    <div class="movie_class col-6 col-md-3 mt-3 bg-warning" style="--bs-bg-opacity: .4;">
+                        <img src="../Assets/movies/kingsman.jpg" class="img-fluid mt-2" alt="Responsive image">
+                        <div class="movie_title">Kingsman</div>
+                    </div>
                 </div>
             </div>
-            <div class="row justify-content-center mb-4">
-                <div class="col-6 col-md-3">
-                    <img src="../Assets/movies/inception.jpg" class="img-fluid hi" alt="Responsive image">
-                    <div class="">Inception</div>
+
+            <br>
+            <br>
+            <hr style="border-width: 0.5vh; width: 90%; margin:auto;">
+            <br>
+
+            <div class="container text-center">
+                <div>
+                    <span class="genre_title" style="font-size:3em;">🔪Thriller</span>
                 </div>
-                <div class="col-6 col-md-3">
-                    <img src="../Assets/movies/kingsman.jpg" class="img-fluid hi" alt="Responsive image">
-                    <div class="">Kingsman</div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <img src="../Assets/movies/lift.jpg" class="img-fluid hi" alt="Responsive image">
-                    <div class="">Lift</div>
-                </div>
-            </div>
-            <div class="row justify-content-center mb-4">
-                <div class="col-6 col-md-3">
-                    <img src="../Assets/movies/man_from_toronto.jpg" class="img-fluid hi" alt="Responsive image">
-                    <div class="">Man from Toronto</div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <img src="../Assets/movies/million_ways_to_die_in_the_west.jpg" class="img-fluid hi" alt="Responsive image">
-                    <div class="">Million Ways To Die In The West</div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <img src="../Assets/movies/requiem_for_a_dream.jpg" class="img-fluid hi" alt="Responsive image">
-                    <div class="">Requiem for a Dream</div>
+
+                <div class="row justify-content-center">
+                    <div class="movie_class col-6 col-md-3 mt-3 bg-danger" style="--bs-bg-opacity: .6;">
+                        <img src="../Assets/movies/requiem_for_a_dream.jpg" class="img-fluid mt-2" alt="Responsive image">
+                        <div class="movie_title">Requiem for a Dream</div>
+                    </div>
+                    <div class="movie_class col-6 col-md-3 mt-3 bg-danger" style="--bs-bg-opacity: .4;">
+                        <img src="../Assets/movies/hereditary.jpg" class="img-fluid mt-2 mt-2" alt="Responsive image">
+                        <div class="movie_title">Hereditary</div>
+                    </div>
                 </div>
             </div>
-            <div class="row justify-content-center mb-4">
-                <div class="text-center col-6 col-md-3">
-                    <img src="../Assets/movies/shutter_island.jpg" class="img-fluid hi" alt="Responsive image">
-                    <div class="">Shutter Island</div>
+
+            <br>
+            <br>
+            <hr style="border-width: 0.5vh; width: 90%; margin:auto;">
+            <br>
+
+            <div class="container text-center">
+                <div>
+                    <span class="genre_title" style="font-size:3em;">🤯einfach schauen</span>
                 </div>
-                <div class="text-center col-6 col-md-3">
-                    <img src="../Assets/movies/truman_show.jpg" class="img-fluid hi" alt="Responsive image">
-                    <div class="">Truman Show</div>
+
+                <div class="row justify-content-center">
+                    <div class="movie_class col-6 col-md-3 mt-3 bg-info">
+                        <img src="../Assets/movies/eternal_sunshine_of_the_spotless_mind.jpg" class="img-fluid mt-2" alt="Responsive image">
+                        <div class="movie_title">Eternal Sunshine of the Spotless Mind</div>
+                    </div>
+                    <div class="text-center movie_class col-6 col-md-3 mt-3 bg-info">
+                        <img src="../Assets/movies/shutter_island.jpg" class="img-fluid mt-2" alt="Responsive image">
+                        <div class="movie_title">Shutter Island</div>
+                    </div>
+                    <div class="movie_class col-6 col-md-3 mt-3 bg-info" style="--bs-bg-opacity: .5;">
+                        <img src="../Assets/movies/inception.jpg" class="img-fluid mt-2" alt="Responsive image">
+                        <div class="movie_title">Inception</div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row justify-content-center" style="--bs-bg-opacity: .8;">
+                <div class="movie_class col-6 col-md-3 mt-3 bg-info" style="--bs-bg-opacity: .5;">
+                        <img src="../Assets/movies/butterfly_effect.jpg" class="img-fluid mt-2" alt="Responsive image">
+                        <div class="movie_title">Butterfly Effect</div>
+                    </div>
+                    <div class="text-center movie_class col-6 col-md-3 mt-3 bg-info">
+                        <img src="../Assets/movies/truman_show.jpg" class="img-fluid mt-2" alt="Responsive image">
+                        <div class="movie_title">Truman Show</div> 
+                    </div>
                 </div>
             </div>
         </div>
-
-        
         
         <?php include '../html/footer.php'; ?>
 

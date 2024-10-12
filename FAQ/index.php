@@ -8,8 +8,8 @@
     <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">
-    <link rel="stylesheet" href="../../Style/style.css">
-    <link rel="stylesheet" href="../../Style/header.css">
+    <link rel="stylesheet" href="../Style/style.css">
+    <link rel="stylesheet" href="../Style/header.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,22 +19,16 @@
 
 <body class="gradient">
     <div>
-        
-        <?php include '../../html/header.php'; ?>
-
-        
-        <div class="container text-danger">
-            <h1>Tja. Hier bin ich wohl</h1>
+        <div class="container">
+            <h1>Coole Fragen und Antworten!</h1>
         </div>
-
-        <?php include 'p_multimengen.php'; ?>
         
-        <?php include '../../html/footer.php'; ?>
+        <?php include '../html/footer.php'; ?>
 
     </div>
 
-    <script type="application/x-javascript" src="../../Script/ButtonListeners/universalButtons.js"></script>
-    <script type="application/x-javascript" src="../../Script/ReadSpeed/readSpeed.js"></script>
+    <script type="application/x-javascript" src="../Script/ButtonListeners/universalButtons.js"></script>
+    <script type="application/x-javascript" src="../Script/ReadSpeed/readSpeed.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

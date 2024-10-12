@@ -1,7 +1,4 @@
 <?php echo('
-<br>
-<br>
-<br>
 <footer class="bg-dark text-center text-lg-start text-white">
     <div class="container p-2">
         <div class="row mt-4">
@@ -64,6 +61,10 @@
                     <li>
                         <a href="#!" class="text-white"><i class="fas fa-envelope fa-fw fa-sm me-2"></i>AGB</a>
                     </li>
+
+                    <li>
+                        <a href="#!" class="text-white"><i class="fas fa-envelope fa-fw fa-sm me-2"></i>Memes</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -71,6 +72,15 @@
 
     <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.2)">
     © Matthes B., alle Rechte und Links reserviert – auch die unsichtbaren
+    </div>
+
+    <div class="text-center">
+        <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+            (<a property="dct:title" rel="cc:attributionURL" href="http://weristmatthes.de">weristmatthes.de</a>
+                is licensed under 
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt="">
+            </a>)
+        </p>
     </div>
 </footer>
 ');

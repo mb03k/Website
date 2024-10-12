@@ -34,9 +34,7 @@
 
         <?php include 'p_multimengen.php'; ?>
         
-        <div class="container">
-            Footer
-        </div>
+        <?php include '../html/footer.php'; ?>
 
     </div>
 
