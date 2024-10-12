@@ -1,2 +1,2 @@
 # Website
-Meine Website, die <del>bisher</del> nicht live ist. mb03k.github.io ist eine "passive" Website, die ich nicht verändere. Diese hier schon
+Meine Website, die <del>bisher nicht</br> jetzt live ist!!! weristmatthes.de vom Namen her. Die repository mb03k.github.io wird demnach nicht mehr verwendet; DIESE repository werde ich für den live-code meiner Website (weristmatthes) verwenden
