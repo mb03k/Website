@@ -22,27 +22,26 @@
         <?php include '../html/header.php'; ?>
         
         <div class="container">
-            <div class="">Sehr geehrte Damen und Herren,
-                <br>
-                <br>
+            <h2>Dauert noch etwas...</h2>
+            <div class="" hidden>Sehr geehrte Damen und Herren,
+                
                 je nachdem wie viel Sie bisher von meiner Website gesehen haben, muss ich hier sagen:
-                <br>
+
                 auch wenn vieles lustig erscheinen mag, kann ich auch ernst. Ich bin eine sehr ironische 
                 Person in meinem privaten Umfeld. Jedoch hält mich das in keinster Weise davon ab, in
                 professioneller Art und Weise mit meinen Mitmenschen umzugehen.
                 Demnach möchte ich Sie in Ihrem 'privaten' Bereich meiner Website davon überzeugen.
-                <br><br>
+
                 Allem in allem möchte ich auf meiner <i>öffentlichen</i> Website etwas privatsphäre
                 beibehalten. Demnach ist der weitere Zugang nur für Sie mit dem richtigen 
                 Code zugänglich, den ich Ihnen in meiner Bewerbung beigefügt habe.
                 Geben Sie diesen ein und werden Sie ganz einfach weitergeleitet.
 
-                <br><br>
 
                 Mit freundlichen Grüßen
-                <br><br>
+
                 Matthes Böttcher
-                <br><br>
+
             </div>
 
             <div class="container d-flex flex-column">
