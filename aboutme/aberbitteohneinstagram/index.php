@@ -25,6 +25,8 @@
         
         <div class="container text-danger">
             <h1>Tja. Hier bin ich wohl</h1>
+
+            <h2>Warum habe ich Instagram gelöscht?</h2>
         </div>
 
         <?php include 'p_multimengen.php'; ?>

@@ -30,6 +30,20 @@
                 <br>
                 Instagram zu löschen und den Weg dabei zu dokumentieren?""
             </h3>
+            <p>
+                Wofür habe ich diese Seite erstellt?
+                Simpel. Ich versuche mich selbst zu verstehen und das ganze zu Wort zu bringen,
+                um mir selbst einen Gefallen zu tun. <br>
+                Auf der Startseite habe ich gesagt, dass es wie eine Art <i>Jakobsweg</i> ist.
+                Was meine ich damit?
+                Es gibt einen Podcast namens "Beste Freundinnen", der von Max und Jakob gesprochen
+                wird. Jakob hat einen weiteren, privaten Podcast. You
+                guessed it: Jakobsweg. Dort nimmt er alle Zuhörenden in sein privates Leben mit
+                und macht über die verschiedensten Dinge episoden. *** Anmerkung: stand 12.10.2024
+                finde ich den Podcast nicht. Entweder bin ich schon wieder gigantisch lost oder
+                er wurde entfernt *** Seine Episoden handelten davon, dass er sich im Endeffekt
+                auf eine Reise begab, auf der er sich selbst 
+            </p>
         </div>
 
         <?php include 'p_multimengen.php'; ?>

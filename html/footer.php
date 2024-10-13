@@ -47,23 +47,15 @@
                 <h5 class="text-uppercase">Info</h5>
                 <ul class="list-unstyled">
                     <li>
-                        <a href="#!" class="text-white"><i class="fas fa-at fa-fw fa-sm me-2"></i>FAQ</a>
+                        <a href="https://weristmatthes.de/faq" class="text-white" id="footer_faq"><i class="fas fa-at fa-fw fa-sm me-2"></i>FAQ</a>
                     </li>
 
                     <li>
-                        <a href="#!" class="text-white"><i class="fas fa-shipping-fast fa-fw fa-sm me-2"></i>Impressum</a>
+                        <a href="https://weristmatthes.de" class="text-white" id="footer_memes"><i class="fas fa-envelope fa-fw fa-sm me-2"></i>Memes</a>
                     </li>
 
                     <li>
-                        <a href="#!" class="text-white"><i class="fas fa-envelope fa-fw fa-sm me-2"></i>Datenschutz</a>
-                    </li>
-
-                    <li>
-                        <a href="#!" class="text-white"><i class="fas fa-envelope fa-fw fa-sm me-2"></i>AGB</a>
-                    </li>
-
-                    <li>
-                        <a href="#!" class="text-white"><i class="fas fa-envelope fa-fw fa-sm me-2"></i>Memes</a>
+                        <a href="https://weristmatthes.de/datenschutz" class="text-white" id="footer_datenschutz"><i class="fas fa-envelope fa-fw fa-sm me-2"></i>Datenschutz</a>
                     </li>
                 </ul>
             </div>
