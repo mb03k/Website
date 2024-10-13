@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="Style/style.css">
     <link rel="stylesheet" href="Style/homestyle.css">
     <link rel="stylesheet" href="Style/header.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <!--<link rel="stylesheet" href="Style/homeScreenAnimations.css"> bereitet in der Form Design-Fehler (out-of-bildschirm)-->
 </head>
 
@@ -19,10 +20,17 @@
         <?php include 'html/header.php'; ?>
 
         <div class="container">
-            <div class="bg-blue d-flex justify-content-center">
-                <div class="text-center text-white" >
-                    <p class="line-1 anim-typewriter yoSoyMatthes" style="line-height:1.1em; font-weight: bold; font-size: 3.5em; margin: 0;">
+            <div class="row bg-blue text-center text-white">
+                <div class="" >
+                    <p class="line-1 anim-typewriter yoSoyMatthes mt-4" style="line-height:1.1em; font-weight: bold; font-size: 3.5em; margin: 0;">
                         Hallo, ich bin Matthes👋
+                    </p>
+                </div>
+                <div class="">
+                    <p class="">
+                        Schlaue Menschen sagen, man sollte bei Webdesign zuerst für Handys
+                        Designen, und danach für PCs. Ich sage: we dont do that here
+                        <img src="Assets/we_dont_do_that_here.jpg" class="rounded" style="width:50px;">
                     </p>
                 </div>
             </div>
@@ -31,7 +39,7 @@
 
             <div class="row text-dark text-center" style="display:flex;align-items: center; height:100%;">
                 <div class="col-md m-2 projectsContainer">
-                    <div class="col">
+                    <div class="col p-2">
                         <div class="rowOneCurrentProjects" id="currentProjects">
                             <h1>Aktuelle Projekte</h1>
                         </div>
@@ -70,7 +78,7 @@
                     </div>   
                 </div>
                 <div class="col-md m-2 projectsContainer" id="educationalPath">
-                    <div class="col rowTwo">
+                    <div class="col rowTwo p-2">
                         <div>
                             <span class="h1">Mein Bildungsweg</span><br>
                             <span class="h4">in a nutshell</span>
@@ -82,7 +90,7 @@
                 </div>
 
                 <div class="col-md m-2 projectsContainer" id="aboutme">
-                    <div class="col rowThree">
+                    <div class="col rowThree p-2">
                         <h1>Über mich</h1>
                         Ich könnte hier viel schreiben. Ich bin ein Entrepreneur. Ich bin Gott. Ich bin alles.
                         Aber nichts würde passen. Lieber leite ich dich auf den Feed weiter, auf dem ich versuche
@@ -93,25 +101,62 @@
         </div>
 
 
-        <div class="container">
-            <span>Es gibt sehr viel über mich. Ich habe unglaublich viele Ideen was ich hier
-                alles 'veröffentlichen' kann (in Klammern, weil es realistisch gesehen niemanden interessieren
-                wird). Wie wäre es mit - zugegebenermaßen - einer sehr schönen Auswahl an Filmen?
-            </span>
+        <div class="container text-center">
+            <p class="m-4">
+                <span>
+                    Es gibt sehr viel über mich. Ich habe unglaublich viele Ideen was ich hier
+                    alles 'veröffentlichen' kann (in Klammern, weil es realistisch gesehen niemanden interessieren
+                    wird). Wie wäre es mit - zugegebenermaßen - einer sehr schönen Auswahl an Filmen?
+                </span>
+            </p>
 
-            <button class="btn btn-dark" onclick='window.open("404/index.php", "_self")'>404</button>
-            <button class="btn btn-dark" onclick='window.open("aboutme/index.php", "_self")'>aboutme</button>
-            <button class="btn btn-dark" onclick='window.open("aboutme/aberbitteohneinstagram/index.php", "_self")'>aboutme/aberbitteohneinstagram</button>
-            <button class="btn btn-dark" onclick='window.open("bucketlist/index.php", "_self")'>bucketlist</button>
-            <button class="btn btn-dark" onclick='window.open("FAQ/index.php", "_self")'>faq</button>
-            <button class="btn btn-dark" onclick='window.open("popcornphilosoph/index.php", "_self")'>popcornphilosoph</button>
-            <button class="btn btn-dark" onclick='window.open("projekte/index.php", "_self")'>projekte</button>
+            
+            <p>
+                <span>
+                    Oder schau dich sonst um. Hier hast du eine Liste aller aktuell verfügbaren Seiten
+                </span>
+            </p>
+            <div style="display: flex; justify-content: center;">
+                <div class="list-group" style="width: 50%;">
+                    <button type="button" class="list-group-item list-group-item-action available_sites" id="aboutme_link">Über mich</button>
+                    <button type="button" class="list-group-item list-group-item-action available_sites" id="popcornphilosoph_link">Filme / Bücher</button>
+                    <button type="button" class="list-group-item list-group-item-action available_sites" id="readspeed_link">Lesegeschwindigkeit</button>
+                    <button type="button" class="list-group-item list-group-item-action available_sites" id="projekte_link">Projekte</button>
+                    <button type="button" class="list-group-item list-group-item-action available_sites" id="faq_link">FAQ</button>
+                </div>
+            </div>
+
+            <button class="btn btn-dark" id="404_link">404</button>
+            <button class="btn btn-dark" id="aboutme_link"aboutme>aboutme</button>
+            <button class="btn btn-dark" id="aberbitteohneinstagram_link">aboutme/aberbitteohneinstagram</button>
+            +<button class="btn btn-dark" id="faq_link">faq</button>
+            <button class="btn btn-dark" id="popcornphilosoph_link">popcornphilosoph</button>
+            <button class="btn btn-dark" id="projekte_link">projekte</button>
 
             <span>Willst du etwas <a href="#" id="readspeed_button">cooles</a> sehen?</span>
         </div>
 
+        <div class="container text-center mt-4">
+            <div class="row justify-content-center">
+                <div class="text-center w-75 mb-2">
+                    <p class="m-0">Abschließend ein großes Dankeschön an die zwei wundervollen 
+                        CSS Frameworks, durch die selbst ich eine einigermaßen okay-aussehende 
+                        Website erstellen konnte:</p>
+                </div>
 
+                <p class="m-1 bootswindfont">
+                    <span class="p-1 m-2 rounded bootswindhover" id="bootstrap_button">
+                        Bootstrap
+                        <img src="Assets/bootstrap.png" style="width:35px;">
+                    </span>
 
+                    <span class="p-1 m-2 rounded bootswindhover" id="tailwind_button">
+                        Tailwind
+                        <img src="Assets/tailwind.png" class="img-fluid pb-1" style="width: 2em; height: 2em;">
+                    </span>
+                </p>
+            </div>
+        </div>
         <?php include 'html/footer.php'; ?>
     </div>
 
