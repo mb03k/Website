@@ -1,7 +1,3 @@
-/*
-    ReadSpead.html
-*/
-
 document.getElementById("how_it_works_button").onclick = function() {
     showOrHideHowItWorks();
 }
