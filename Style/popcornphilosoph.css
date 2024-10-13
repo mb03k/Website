@@ -7,6 +7,12 @@
     margin-top:3px;
 }
 
+
+.movie_stars {
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-size: 1.5em;
+}
+
 .genre_title {
     font-size: 4em;
     font-family: "Bebas Neue", sans-serif;

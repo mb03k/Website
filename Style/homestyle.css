@@ -25,3 +25,32 @@
     transition: 0.15s;
     background-color: #FF2600;
 }
+
+.bootswindfont {
+    line-height:0.95em;
+    font-size: 1.2em;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 0;
+}
+
+.bootswindhover {
+    background: rgba(255, 255, 255, 0.5);
+    color: white;
+    transition: 0.5s;
+}
+
+.bootswindhover:hover {
+    cursor: pointer;
+    background-color: orange;
+}
+
+.available_sites {
+    transition: 0.2s;
+}
+
+.available_sites:hover {
+    cursor: pointer;
+    background-color: rgba(28, 54, 24, 0.7);
+    color: white;
+}
