@@ -22,20 +22,17 @@
         <?php include '../html/header.php'; ?>
         
         <div class="container">
+
+            <div class="project_website">
+                <?php include 'p_website.php'; ?>
+            </div>
+
             <div class="project_chess">
-                <!-- 
-                    in meiner Vorstellung:
-                    links ein Bild, der Rest mit einer Erklärung oder sonstigem gefüllt
-                -->
                 <?php include 'p_schach.php'; ?>
             </div>
 
             <div class="project_checkers">
                 <?php include 'p_dame.php'; ?>
-            </div>
-
-            <div class="project_website">
-                <?php include 'p_taschenrechner.php'; ?>
             </div>
 
             <div class="project_calculator">

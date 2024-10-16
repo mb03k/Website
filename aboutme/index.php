@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Londrina+Sketch&display=swap" rel="stylesheet">
     <!--<link rel="stylesheet" href="Style/homeScreenAnimations.css"> bereitet in der Form Design-Fehler (out-of-bildschirm)-->
 </head>
 
@@ -23,27 +24,13 @@
         <?php include '../html/header.php'; ?>
 
         
-        <div class="container">
-            <h1>Zitat meiner ersten Notizen zu dieser Seite:</h1>
-            <h3>
-                "Wie wäre es mit der Geschichte ohne Instagram zu leben?
-                <br>
-                Instagram zu löschen und den Weg dabei zu dokumentieren?""
+        <div class="container text-center mt-4">
+            <h3 style='font-family: "Josefin Sans", sans-serif;'>
+                Hallo hallo hallo,<br>wie ich auf der Startseite erwähnt habe, dauert alles noch ein bisschen
+                länger. Ich möchte - wenn ich schon etwas hochlade - auch authentisch sein. Und das bin ich
+                nicht, wenn ich versuche alles so schnell es geht zu schreiben. Nachdem heute (14.10) Offiziell
+                das 3. Semester gestartet hat, wird sich das vermutlich noch etwas herauszögern
             </h3>
-            <p>
-                Wofür habe ich diese Seite erstellt?
-                Simpel. Ich versuche mich selbst zu verstehen und das ganze zu Wort zu bringen,
-                um mir selbst einen Gefallen zu tun. <br>
-                Auf der Startseite habe ich gesagt, dass es wie eine Art <i>Jakobsweg</i> ist.
-                Was meine ich damit?
-                Es gibt einen Podcast namens "Beste Freundinnen", der von Max und Jakob gesprochen
-                wird. Jakob hat einen weiteren, privaten Podcast. You
-                guessed it: Jakobsweg. Dort nimmt er alle Zuhörenden in sein privates Leben mit
-                und macht über die verschiedensten Dinge episoden. *** Anmerkung: stand 12.10.2024
-                finde ich den Podcast nicht. Entweder bin ich schon wieder gigantisch lost oder
-                er wurde entfernt *** Seine Episoden handelten davon, dass er sich im Endeffekt
-                auf eine Reise begab, auf der er sich selbst 
-            </p>
         </div>
 
         <?php include 'p_multimengen.php'; ?>

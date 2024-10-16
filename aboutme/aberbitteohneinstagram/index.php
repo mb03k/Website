@@ -23,10 +23,10 @@
         <?php include '../../html/header.php'; ?>
 
         
-        <div class="container text-danger">
-            <h1>Tja. Hier bin ich wohl</h1>
-
-            <h2>Warum habe ich Instagram gelöscht?</h2>
+        <div class="container text-center">
+            <p>Eigentlich sollte hier schon etwas stehen</p>
+            <p>Das ist mir jetzt etwas peinlich...</p>
+            <p>Darf ich dich auf eine andere Seite weiterleiten?</p>
         </div>
 
         <?php include 'p_multimengen.php'; ?>

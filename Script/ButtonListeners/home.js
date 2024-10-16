@@ -16,16 +16,8 @@ document.getElementById("aboutme").onclick = function() {
 
 /* list with website links */
 
-document.getElementById("404_link").onclick = function() {
-    window.open("https://weristmatthes.de/404", "_self");
-}
-
 document.getElementById("aboutme_link").onclick = function() {
     window.open("https://weristmatthes.de/aboutme", "_self");
-}
-
-document.getElementById("aberbitteohneinstagram_link").onclick = function() {
-    window.open("https://weristmatthes.de/aboutme/aberbitteohneinstagram", "_self");
 }
 
 document.getElementById("faq_link").onclick = function() {
