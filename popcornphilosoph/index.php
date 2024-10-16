@@ -22,251 +22,263 @@
     <div>
         <?php include '../html/header.php'; ?>
         <div class="container">
-            <h1>So weit musste es ja kommen. Ich nehme Titelvorschläge von ChatGPT an...
-                naja - ich sollte mich nicht wehren. Hier ist euer <i>PopcornPhilosoph</i></h1>
+            <div class="container">
+                <div class="text-center m-4 p-2 bg-danger rounded" style="--bs-bg-opacity: 0.4; border: 1px solid;">
+                    <h2>So weit musste es ja kommen. Ich nehme Titelvorschläge von ChatGPT an...
+                        naja - ich sollte mich nicht wehren. Hier ist euer <i>PopcornPhilosoph</i></h2>
+                </div>
 
-            <span>
-                Also, was mache ich hier? Ich stelle euch Filme vor!
-                Irgendwann werde ich die Filme in einer Datenbank speichern und eine Sortierung
-                einbauen. Aber das kann noch dauern :D
-                <br>
-                Deshalb sortiere ich die Filme nach möchtegern Genres
-                <br>
-                <br>
-            </span>
+                <div class="m-2 row d-flex justify-content-center">
+                    <div class="row col-lg m-2 p-2 bg-success rounded" style="--bs-bg-opacity: .5;">
+                        <span>
+                            Also, was mache ich hier? Ich stelle euch Filme vor!
+                            Irgendwann werde ich die Filme in einer Datenbank speichern und eine Sortierung
+                            einbauen, damit ich das hier nicht mit <b>7</b> Stunden Arbeit alles
+                            einzeln einfügen muss. Aber das kann noch dauern...
+                            Deshalb sortiere ich die Filme nach möchtegern Genres
+                        </span>
+                        <span class="mt-4 p-2 bg-success rounded" style="--bs-bg-opacity: .5;">
+                            Aber zuerst meine TOP-Empfehlungen:
+                            <p>1. Eternal Sunshine of the Spotless mind</p>
+                            <p>2. Shutter Island</p>
+                            <p>3. Requiem for a Dream -> wer einen <i>sehr</i> mitreißenden Film sucht</p>
+                        </span>
+                    </div>
 
-            <span>
-                Aber zuerst meine TOP-Empfehlungen (für mich must-watch):
+                    <div class="row col-lg m-2 p-2 bg-warning rounded" style="--bs-bg-opacity: .5;">
+                        <div class="text-center">
+                            <span style="font-size:1.4em;"><p style="margin:0;">⭐️⭐️⭐️</p> Sterne kommen bald <p style="margin:0;">⭐️⭐️⭐️</p></span>
+                        </div>
+
+                        <div class="text-center">
+                            <span>
+                                Bis dahin bitte mit x/10 genügen
+                                (genau so wie eine genauere Beschreibung der Filme kommen wird [ich muss natürlich
+                                meine Meinung dazu beitragen... ohne Frage])
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div class="justify-content-center mt-4">
+                <div class="text-center">
+                    <div>
+                        <span class="genre_title" style="font-size:3em;">😃 Comedy</span>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="movie_class col-6 col-md-3 bg-success" style="--bs-bg-opacity: .9;">
+                            <img src="../Assets/movies/der_diktator.jpg" class="img-fluid mt-2" alt="Responsive image">
+                            <div class="movie_title">Der Diktator</div>
+                            <div class="movie_stars">7/10</div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="movie_class col-6 col-md-3 bg-success" style="--bs-bg-opacity: .9;">
+                            <img src="../Assets/movies/harold_kumar_white_castle.jpg" class="img-fluid mt-2" alt="Responsive image">
+                            <div class="movie_title">Harold & Kumar - White Castle</div>
+                            <div class="movie_stars">6/10</div>
+                        </div>
+                        <div class="movie_class col-6 col-md-3 bg-success" style="--bs-bg-opacity: .8;">
+                            <img src="../Assets/movies/harold_kumar_escape_from_guantanamo.jpg" class="img-fluid mt-2" alt="Responsive image">
+                            <div class="movie_title">Harold & Kumar - Escape from Guantanamo Bay</div>
+                            <div class="movie_stars">9/10</div>
+                        </div>
+                        <div class="movie_class col-6 col-md-3 bg-success" style="--bs-bg-opacity: .7;">
+                            <img src="../Assets/movies/harold_kumar_christmas.jpg" class="img-fluid mt-2" alt="Responsive image">
+                            <div class="movie_title">Harold & Kumar - Christmas</div>
+                            <div class="movie_stars">6.5/10</div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="movie_class col-6 col-md-3 mt-3 bg-success" style="--bs-bg-opacity: .6;">
+                            <img src="../Assets/movies/ghost_movie_1.jpg" class="img-fluid mt-2" alt="Responsive image">
+                            <div class="movie_title">Ghost Movie 1</div>
+                            <div class="movie_stars">8/10</div>
+                        </div>
+                        <div class="movie_class col-6 col-md-3 mt-3 bg-success" style="--bs-bg-opacity: .5;">
+                            <img src="../Assets/movies/ghost_movie_2.jpg" class="img-fluid mt-2" alt="Responsive image">
+                            <div class="movie_title">Ghost Movie 2</div>
+                            <div class="movie_stars">8/10</div>
+                        </div>
+                        <div class="movie_class col-6 col-md-3 mt-3 bg-success" style="--bs-bg-opacity: .4;">
+                            <img src="../Assets/movies/million_ways_to_die_in_the_west.jpg" class="img-fluid mt-2" alt="Responsive image">
+                            <div class="movie_title">A Million Ways To Die In The West</div>
+                            <div class="movie_stars">8/10</div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="movie_class col-6 col-md-3 mt-3 bg-success" style="--bs-bg-opacity: .3;">
+                            <img src="../Assets/movies/borat.jpg" class="img-fluid mt-2" alt="Responsive image">
+                            <div class="movie_title">Borat</div>
+                            <div class="movie_stars">4/10</div>
+                        </div>
+                        <div class="text-center movie_class col-6 col-md-3 mt-3 bg-success" style="--bs-bg-opacity: .2;">
+                            <img src="../Assets/movies/central_intelligence.jpg" class="img-fluid mt-2" alt="Responsive image">
+                            <div class="movie_title">Central Intelligence</div> 
+                            <div class="movie_stars">7/10</div>
+                        </div>
+                        <div class="text-center movie_class col-6 col-md-3 mt-3 bg-success" style="--bs-bg-opacity: .1;">
+                            <img src="../Assets/movies/night_school.jpg" class="img-fluid mt-2" alt="Responsive image">
+                            <div class="movie_title">Night School</div> 
+                            <div class="movie_stars">6/10</div>
+                        </div>
+                    </div>
+                </div>
+
                 <br>
-                1. Eternal Sunshine of the Spotless mind
                 <br>
-                2. Shutter Island
+                <hr style="border-width: 0.5vh; width: 90%; margin:auto;">
                 <br>
-                3. Requiem for a Dream -> wer einen <i>sehr</i> mitreißenden Film sucht
+
+                <div class="container text-center">
+                    <div>
+                        <span class="genre_title" style="font-size:3em;">😱 Action</span>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="movie_class col-6 col-md-3 mt-3 bg-warning" style="--bs-bg-opacity: .8;">
+                            <img src="../Assets/movies/man_from_toronto.jpg" class="img-fluid mt-2" alt="Responsive image">
+                            <div class="movie_title">Man from Toronto</div>
+                            <div class="movie_stars">6/10</div>
+                        </div>
+                        <div class="movie_class col-6 col-md-3 mt-3 bg-warning" style="--bs-bg-opacity: .6;">
+                            <img src="../Assets/movies/lift.jpg" class="img-fluid mt-2" alt="Responsive image">
+                            <div class="movie_title">Lift</div>
+                            <div class="movie_stars">5/10</div>
+                        </div>
+                        <div class="movie_class col-6 col-md-3 mt-3 bg-warning" style="--bs-bg-opacity: .4;">
+                            <img src="../Assets/movies/kingsman.jpg" class="img-fluid mt-2" alt="Responsive image">
+                            <div class="movie_title">Kingsman</div>
+                            <div class="movie_stars">3/10</div>
+                        </div>
+                    </div>
+                </div>
+
                 <br>
-            </span>
+                <br>
+                <hr style="border-width: 0.5vh; width: 90%; margin:auto;">
+                <br>
+
+                <div class="container text-center">
+                    <div>
+                        <span class="genre_title" style="font-size:3em;">🔪 Thriller</span>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="movie_class col-6 col-md-3 mt-3 bg-danger" style="--bs-bg-opacity: .6;">
+                            <img src="../Assets/movies/requiem_for_a_dream.jpg" class="img-fluid mt-2" alt="Responsive image">
+                            <div class="movie_title">Requiem for a Dream</div>
+                            <div class="movie_stars">9/10</div>
+                        </div>
+                        <div class="movie_class col-6 col-md-3 mt-3 bg-danger" style="--bs-bg-opacity: .4;">
+                            <img src="../Assets/movies/hereditary.jpg" class="img-fluid mt-2 mt-2" alt="Responsive image">
+                            <div class="movie_title">Hereditary</div>
+                            <div class="movie_stars">6/10</div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+                <hr style="border-width: 0.5vh; width: 90%; margin:auto;">
+                <br>
+
+                <div class="container text-center">
+                    <div>
+                        <span class="genre_title" style="font-size:3em;">🤯 einfach schauen</span>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="movie_class col-6 col-md-3 mt-3 bg-info" style="--bs-bg-opacity: .7;">
+                            <img src="../Assets/movies/eternal_sunshine_of_the_spotless_mind.jpg" class="img-fluid mt-2" alt="Responsive image">
+                            <div class="movie_title">Eternal Sunshine of the Spotless Mind</div>
+                            <div class="movie_stars">9.5/10</div>
+                        </div>
+                        <div class="text-center movie_class col-6 col-md-3 mt-3 bg-info" style="--bs-bg-opacity: .5;">
+                            <img src="../Assets/movies/shutter_island.jpg" class="img-fluid mt-2" alt="Responsive image">
+                            <div class="movie_title">Shutter Island</div>
+                            <div class="movie_stars">9.5/10</div>
+                        </div>
+                        <div class="movie_class col-6 col-md-3 mt-3 bg-info" style="--bs-bg-opacity: .7;">
+                            <img src="../Assets/movies/inception.jpg" class="img-fluid mt-2" alt="Responsive image">
+                            <div class="movie_title">Inception</div>
+                            <div class="movie_stars">9/10</div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="row justify-content-center">
+                    <div class="movie_class col-6 col-md-3 mt-3 bg-info" style="--bs-bg-opacity: .5;">
+                            <img src="../Assets/movies/butterfly_effect.jpg" class="img-fluid mt-2" alt="Responsive image">
+                            <div class="movie_title">Butterfly Effect</div>
+                            <div class="movie_stars">9/10</div>
+                        </div>
+                        <div class="text-center movie_class col-6 col-md-3 mt-3 bg-info" style="--bs-bg-opacity: .7;">
+                            <img src="../Assets/movies/truman_show.jpg" class="img-fluid mt-2" alt="Responsive image">
+                            <div class="movie_title">Truman Show</div> 
+                            <div class="movie_stars">8/10</div>
+                        </div>
+                    </div>
+                </div>
+            
+
+            <br>
+            <br>
+            <hr style="border-width: 0.5vh; width: 90%; margin:auto;">
+            <br>
+
+            <div class="container text-center">
+                <div>
+                    <span class="genre_title" style="font-size:3em;">📚 Bücher</span>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="movie_class col-6 col-md-3 bg-light" style="--bs-bg-opacity: .8;">
+                        <img src="../Assets/books/morbus.jpg" class="img-fluid mt-2" alt="Responsive image">
+                        <div class="movie_title">Morbus</div>
+                    </div>
+                    <div class="movie_class col-6 col-md-3 bg-light" style="--bs-bg-opacity: .6;">
+                        <img src="../Assets/books/verbrechen.jpg" class="img-fluid mt-2" alt="Responsive image">
+                        <div class="movie_title">Verbrechen</div>
+                    </div>
+                </div>
+
+                <div class="container text-center">
+                    <div class="row justify-content-center">
+                        <div class="movie_class col-6 col-md-3 bg-light" style="--bs-bg-opacity: .4;">
+                            <img src="../Assets/books/clean_code.jpg" class="img-fluid mt-2" alt="Responsive image">
+                            <div class="movie_title">Clean Code</div>
+                        </div>
+                        <div class="movie_class col-6 col-md-3 bg-light" style="--bs-bg-opacity: .3;">
+                            <img src="../Assets/books/what_every_body_is_saying.jpg" class="img-fluid mt-2" alt="Responsive image">
+                            <div class="movie_title">What Every Body Is Saying</div>
+                        </div>
+                        <div class="movie_class col-6 col-md-3 bg-light" style="--bs-bg-opacity: .1;">
+                            <img src="../Assets/books/surrounded_by_idiots.jpg" class="img-fluid mt-2" alt="Responsive image">
+                            <div class="movie_title">Surrounded by Idiots</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <h1>⭐️⭐️⭐️Sterne kommen bald⭐️⭐️⭐️</h1>
-        <h5>Bis dahin bitte mit x/10 genügen</h5>
-
-        <h2>(genau so wie eine genauere Beschreibung der Filme kommen wird [ich muss natürlich
-            meine Meinung dazu beitragen... ohne Frage])</h2>
-
-        <div class="container justify-content-center mt-4">
-            <div class="container text-center">
-                <div>
-                    <span class="genre_title" style="font-size:3em;">😃 Comedy</span>
-                </div>
-
-                <div class="row justify-content-center">
-                    <div class="movie_class col-6 col-md-3 bg-success" style="--bs-bg-opacity: .9;">
-                        <img src="../Assets/movies/der_diktator.jpg" class="img-fluid mt-2" alt="Responsive image">
-                        <div class="movie_title">Der Diktator</div>
-                        <div class="movie_stars">7/10</div>
-                    </div>
-                </div>
-
-                <div class="row justify-content-center">
-                    <div class="movie_class col-6 col-md-3 bg-success" style="--bs-bg-opacity: .9;">
-                        <img src="../Assets/movies/harold_kumar_white_castle.jpg" class="img-fluid mt-2" alt="Responsive image">
-                        <div class="movie_title">Harold & Kumar - White Castle</div>
-                        <div class="movie_stars">6/10</div>
-                    </div>
-                    <div class="movie_class col-6 col-md-3 bg-success" style="--bs-bg-opacity: .8;">
-                        <img src="../Assets/movies/harold_kumar_escape_from_guantanamo.jpg" class="img-fluid mt-2" alt="Responsive image">
-                        <div class="movie_title">Harold & Kumar - Escape from Guantanamo Bay</div>
-                        <div class="movie_stars">9/10</div>
-                    </div>
-                    <div class="movie_class col-6 col-md-3 bg-success" style="--bs-bg-opacity: .7;">
-                        <img src="../Assets/movies/harold_kumar_christmas.jpg" class="img-fluid mt-2" alt="Responsive image">
-                        <div class="movie_title">Harold & Kumar - Christmas</div>
-                        <div class="movie_stars">6.5/10</div>
-                    </div>
-                </div>
-
-                <div class="row justify-content-center">
-                    <div class="movie_class col-6 col-md-3 mt-3 bg-success" style="--bs-bg-opacity: .6;">
-                        <img src="../Assets/movies/ghost_movie_1.jpg" class="img-fluid mt-2" alt="Responsive image">
-                        <div class="movie_title">Ghost Movie 1</div>
-                        <div class="movie_stars">8/10</div>
-                    </div>
-                    <div class="movie_class col-6 col-md-3 mt-3 bg-success" style="--bs-bg-opacity: .5;">
-                        <img src="../Assets/movies/ghost_movie_2.jpg" class="img-fluid mt-2" alt="Responsive image">
-                        <div class="movie_title">Ghost Movie 2</div>
-                        <div class="movie_stars">8/10</div>
-                    </div>
-                    <div class="movie_class col-6 col-md-3 mt-3 bg-success" style="--bs-bg-opacity: .4;">
-                        <img src="../Assets/movies/million_ways_to_die_in_the_west.jpg" class="img-fluid mt-2" alt="Responsive image">
-                        <div class="movie_title">A Million Ways To Die In The West</div>
-                        <div class="movie_stars">8/10</div>
-                    </div>
-                </div>
-
-                <div class="row justify-content-center">
-                    <div class="movie_class col-6 col-md-3 mt-3 bg-success" style="--bs-bg-opacity: .3;">
-                        <img src="../Assets/movies/borat.jpg" class="img-fluid mt-2" alt="Responsive image">
-                        <div class="movie_title">Borat</div>
-                        <div class="movie_stars">4/10</div>
-                    </div>
-                    <div class="text-center movie_class col-6 col-md-3 mt-3 bg-success" style="--bs-bg-opacity: .2;">
-                        <img src="../Assets/movies/central_intelligence.jpg" class="img-fluid mt-2" alt="Responsive image">
-                        <div class="movie_title">Central Intelligence</div> 
-                        <div class="movie_stars">7/10</div>
-                    </div>
-                    <div class="text-center movie_class col-6 col-md-3 mt-3 bg-success" style="--bs-bg-opacity: .1;">
-                        <img src="../Assets/movies/night_school.jpg" class="img-fluid mt-2" alt="Responsive image">
-                        <div class="movie_title">Night School</div> 
-                        <div class="movie_stars">6/10</div>
-                    </div>
-                </div>
-            </div>
-
-            <br>
-            <br>
-            <hr style="border-width: 0.5vh; width: 90%; margin:auto;">
-            <br>
-
-            <div class="container text-center">
-                <div>
-                    <span class="genre_title" style="font-size:3em;">😱 Action</span>
-                </div>
-
-                <div class="row justify-content-center">
-                    <div class="movie_class col-6 col-md-3 mt-3 bg-warning" style="--bs-bg-opacity: .8;">
-                        <img src="../Assets/movies/man_from_toronto.jpg" class="img-fluid mt-2" alt="Responsive image">
-                        <div class="movie_title">Man from Toronto</div>
-                        <div class="movie_stars">6/10</div>
-                    </div>
-                    <div class="movie_class col-6 col-md-3 mt-3 bg-warning" style="--bs-bg-opacity: .6;">
-                        <img src="../Assets/movies/lift.jpg" class="img-fluid mt-2" alt="Responsive image">
-                        <div class="movie_title">Lift</div>
-                        <div class="movie_stars">5/10</div>
-                    </div>
-                    <div class="movie_class col-6 col-md-3 mt-3 bg-warning" style="--bs-bg-opacity: .4;">
-                        <img src="../Assets/movies/kingsman.jpg" class="img-fluid mt-2" alt="Responsive image">
-                        <div class="movie_title">Kingsman</div>
-                        <div class="movie_stars">3/10</div>
-                    </div>
-                </div>
-            </div>
-
-            <br>
-            <br>
-            <hr style="border-width: 0.5vh; width: 90%; margin:auto;">
-            <br>
-
-            <div class="container text-center">
-                <div>
-                    <span class="genre_title" style="font-size:3em;">🔪 Thriller</span>
-                </div>
-
-                <div class="row justify-content-center">
-                    <div class="movie_class col-6 col-md-3 mt-3 bg-danger" style="--bs-bg-opacity: .6;">
-                        <img src="../Assets/movies/requiem_for_a_dream.jpg" class="img-fluid mt-2" alt="Responsive image">
-                        <div class="movie_title">Requiem for a Dream</div>
-                        <div class="movie_stars">9/10</div>
-                    </div>
-                    <div class="movie_class col-6 col-md-3 mt-3 bg-danger" style="--bs-bg-opacity: .4;">
-                        <img src="../Assets/movies/hereditary.jpg" class="img-fluid mt-2 mt-2" alt="Responsive image">
-                        <div class="movie_title">Hereditary</div>
-                        <div class="movie_stars">6/10</div>
-                    </div>
-                </div>
-            </div>
-
-            <br>
-            <br>
-            <hr style="border-width: 0.5vh; width: 90%; margin:auto;">
-            <br>
-
-            <div class="container text-center">
-                <div>
-                    <span class="genre_title" style="font-size:3em;">🤯 einfach schauen</span>
-                </div>
-
-                <div class="row justify-content-center">
-                    <div class="movie_class col-6 col-md-3 mt-3 bg-info" style="--bs-bg-opacity: .7;">
-                        <img src="../Assets/movies/eternal_sunshine_of_the_spotless_mind.jpg" class="img-fluid mt-2" alt="Responsive image">
-                        <div class="movie_title">Eternal Sunshine of the Spotless Mind</div>
-                        <div class="movie_stars">9.5/10</div>
-                    </div>
-                    <div class="text-center movie_class col-6 col-md-3 mt-3 bg-info" style="--bs-bg-opacity: .5;">
-                        <img src="../Assets/movies/shutter_island.jpg" class="img-fluid mt-2" alt="Responsive image">
-                        <div class="movie_title">Shutter Island</div>
-                        <div class="movie_stars">9.5/10</div>
-                    </div>
-                    <div class="movie_class col-6 col-md-3 mt-3 bg-info" style="--bs-bg-opacity: .7;">
-                        <img src="../Assets/movies/inception.jpg" class="img-fluid mt-2" alt="Responsive image">
-                        <div class="movie_title">Inception</div>
-                        <div class="movie_stars">9/10</div>
-                    </div>
-                </div>
-
-                <br>
-
-                <div class="row justify-content-center">
-                <div class="movie_class col-6 col-md-3 mt-3 bg-info" style="--bs-bg-opacity: .5;">
-                        <img src="../Assets/movies/butterfly_effect.jpg" class="img-fluid mt-2" alt="Responsive image">
-                        <div class="movie_title">Butterfly Effect</div>
-                        <div class="movie_stars">9/10</div>
-                    </div>
-                    <div class="text-center movie_class col-6 col-md-3 mt-3 bg-info" style="--bs-bg-opacity: .7;">
-                        <img src="../Assets/movies/truman_show.jpg" class="img-fluid mt-2" alt="Responsive image">
-                        <div class="movie_title">Truman Show</div> 
-                        <div class="movie_stars">8/10</div>
-                    </div>
-                </div>
-            </div>
-        
-
-        <br>
-        <br>
-        <hr style="border-width: 0.5vh; width: 90%; margin:auto;">
-        <br>
-
-        <div class="container text-center">
-            <div>
-                <span class="genre_title" style="font-size:3em;">📚 Bücher</span>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="movie_class col-6 col-md-3 bg-light" style="--bs-bg-opacity: .8;">
-                    <img src="../Assets/books/morbus.jpg" class="img-fluid mt-2" alt="Responsive image">
-                    <div class="movie_title">Morbus</div>
-                    <div class="movie_stars">7/10</div>
-                </div>
-                <div class="movie_class col-6 col-md-3 bg-light" style="--bs-bg-opacity: .6;">
-                    <img src="../Assets/books/verbrechen.jpg" class="img-fluid mt-2" alt="Responsive image">
-                    <div class="movie_title">Verbrechen</div>
-                    <div class="movie_stars">7/10</div>
-                </div>
-            </div>
-
-            <div class="container text-center">
-                <div class="row justify-content-center">
-                    <div class="movie_class col-6 col-md-3 bg-light" style="--bs-bg-opacity: .4;">
-                        <img src="../Assets/books/clean_code.jpg" class="img-fluid mt-2" alt="Responsive image">
-                        <div class="movie_title">Clean Code</div>
-                        <div class="movie_stars">7/10</div>
-                    </div>
-                    <div class="movie_class col-6 col-md-3 bg-light" style="--bs-bg-opacity: .3;">
-                        <img src="../Assets/books/what_every_body_is_saying.jpg" class="img-fluid mt-2" alt="Responsive image">
-                        <div class="movie_title">What Every Body Is Saying</div>
-                        <div class="movie_stars">7/10</div>
-                    </div>
-                    <div class="movie_class col-6 col-md-3 bg-light" style="--bs-bg-opacity: .1;">
-                        <img src="../Assets/books/surrounded_by_idiots.jpg" class="img-fluid mt-2" alt="Responsive image">
-                        <div class="movie_title">Surrounded by Idiots</div>
-                        <div class="movie_stars">7/10</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <?php include '../html/footer.php'; ?>
-
     </div>
+
+    <?php include '../html/footer.php'; ?>
 
     <script type="application/x-javascript" src="../Script/ButtonListeners/universalButtons.js"></script>
     <script type="application/x-javascript" src="../Script/ReadSpeed/readSpeed.js"></script>
