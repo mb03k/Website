@@ -11,8 +11,12 @@ body, html {
    background-color: #0a2351;
    color: whitesmoke;
    height: 100%;
+   /*--background-color: #fefefe;
+   --text-color: #222;
+   --shadow-color: #999;*/
 }
 
 footer {
    margin-top: 10vh;
 }
+
