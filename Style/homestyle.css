@@ -28,7 +28,7 @@
 
 .bootswindfont {
     line-height:0.95em;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family: "Nunito", sans-serif;
     font-style: normal;
     font-weight: 0;
@@ -53,4 +53,35 @@
     cursor: pointer;
     background-color: rgba(28, 54, 24, 0.7);
     color: white;
+}
+
+/* styling for website links */
+
+#aboutme_link {
+    background-color: rgba(0,90,50,0.8);
+    color: white;
+}
+
+#popcornphilosoph_link {
+    background-color: rgba(35,139,69,0.7);
+    color: white;
+}
+
+#readspeed_link {
+    background-color: rgba(65,171,93,0.7);
+    color: white;
+}
+
+#projekte_link {
+    background-color: rgba(116,196,118,0.7);
+    color: white;
+}
+
+#faq_link {
+    background-color: rgba(161,217,155,0.7);
+    color: white;
+}
+
+#aboutme_link:hover, #popcornphilosoph_link:hover, #readspeed_link:hover, #projekte_link:hover, #faq_link:hover {
+    background-color: #003049;
 }
