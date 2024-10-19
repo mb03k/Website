@@ -1,55 +1,21 @@
-document.getElementById("headerHomeButton").onclick = function() {
-    goHome();
-}
+addWebsiteLink(document.getElementsByClassName('home_link'), "home");
+addWebsiteLink(document.getElementsByClassName('portfolio_link'), "portfolio");
+addWebsiteLink(document.getElementsByClassName('dataProtection_link'), "datenschutz");
+addWebsiteLink(document.getElementsByClassName('faq_link'), "faq");
+addWebsiteLink(document.getElementsByClassName('aboutme_link'), "aboutme");
+addWebsiteLink(document.getElementsByClassName('abutmeABOI_link'), "ABOI");
+addWebsiteLink(document.getElementsByClassName('movies_link'), "movies");
+addWebsiteLink(document.getElementsByClassName('readspeed_link'), "readspeed");
+addWebsiteLink(document.getElementsByClassName('projects_link'), "projects");
 
-document.getElementById("headerInstagramButton").onclick = function() {
-    openInstagram();
-}
-
-document.getElementById("headerGithubButton").onclick = function() {
-    openGithub();
-}
-
-document.getElementById("portfolio_button").onclick = function() {
-    openCompanyPortfolio();
-}
-
-/* footer */
-
-document.getElementById("footer_faq").onclick = function() {
-    openFAQ();
-}
-
-document.getElementById("footer_datenschutz").onclick = function() {
-    openDataProtection();
-}
-
-document.getElementById("footer_memes").onclick = function() {
-    openCompanyPortfolio();
-}
+addWebsiteLink(document.getElementsByClassName('github_link'), "github");
 
 
-
-function goHome() {
-    window.open("https://www.weristmatthes.de"); // ..., "_self");
-}
-
-function openInstagram() {
-    window.open("https://www.instagram.com/mb21y_/");
-}
-
-function openGithub() {
-    window.open("https://www.github.com/mb03k/");
-}
-
-function openCompanyPortfolio() {
-    window.open("http://localhost/Website/portfolio/", "_self");
-}
-
-function openDataProtection() {
-    window.open("http://localhost/Website/datenschutz/", "_self");
-}
-
-function openFAQ() {
-    
+function addWebsiteLink(buttons, name) {
+    for (let i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener('click', function() {
+            window.open('https://weristmatthes.de/'+name, '_self');
+        }
+    );
+    }
 }
