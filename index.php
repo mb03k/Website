@@ -25,14 +25,14 @@
             <br>
 
             <div class="row text-dark text-center d-flex align-items-center" style="height:100%;">
-                <div class="col-md m-2 projectsContainer">
+                <div class="col-md m-2 projectsContainer" id="currentProjects">
                     <div class="col p-2">
-                        <div class="rowOneCurrentProjects" id="currentProjects">
+                        <div class="rowOneCurrentProjects">
                             <h1>Aktuelle Projekte</h1>
                         </div>
                         <div class="container row projectOne m-2" id="projectChess">
                             <div class="col">
-                                <img class="img-fluid" src="assets/chess.png">
+                                <img class="img-fluid" src="Assets/chess.png">
                             </div>
         
                             <div class="col">
@@ -41,7 +41,6 @@
                                         <i class="bi bi-x-circle-fill" style="height:1rem; color: rgb(195, 0, 0);"></i>
                                     </h5>
                                     <p>Ein Spiel, für das ich brenne. Seit langem auf meiner To-Do-Liste</p>
-                                    <p>Siehe Github README für den aktuellen Stand</p>
                                 </span>
                             </div>
                         </div>
@@ -50,7 +49,7 @@
 
                         <div class="container row projectTwo m-2" id="projectCheckers">
                             <div class="col">
-                                <img class="img-fluid" src="assets/dame.png">
+                                <img class="img-fluid" src="Assets/dame.png">
                             </div>
         
                             <div class="col">
@@ -64,15 +63,24 @@
                         </div>
                     </div>   
                 </div>
+                
                 <div class="col-md m-2 projectsContainer" id="educationalPath">
                     <div class="col rowTwo p-2">
                         <div>
-                            <span class="h1">Mein Bildungsweg</span><br>
-                            <span class="h4">in a nutshell</span>
+                            <span class="h1">
+                                Platzhalter
+                            </span>
                         </div>
-                        Grundschule<br>Hauptschule<br>Realschulabschluss<br>Ausbildung<br>
-                        SIKE<br>ich mach jetzt ein Praktikum<br>Okay arbeiten ist nicht meins, ich gehe auf die FOS<br>
-                        FOS war cool. Ich gehe jetzt studieren<br>Informatikstudium
+                        <p class="p-4">
+                            Hallo, ich bin ein Platzhalter um diese Box größer erscheinen zu lassen,
+                            als sie in Wirklichkeit ist
+                        </p>
+                        <p>
+                            -- Informatik zu studieren ist sehr anstrengend (und ich bin erst seit
+                            3 Tagen im neuen Semester🥲). Es wird also alles noch etwas dauern, bis ich diese tolle
+                            Seite auf ein Niveau gebracht habe, mit dem ich zufrieden bin --
+                        </p>
+                        
                     </div>
                 </div>
 
@@ -106,7 +114,7 @@
                 </span>
             </p>
             <div class="mb-4" style="display: flex; justify-content: center;">
-                <div class="list-group" style="width: 50%;">
+                <div class="list-group w-75">
                     <button type="button" class="list-group-item list-group-item-action available_sites" id="aboutme_link">Über mich</button>
                     <button type="button" class="list-group-item list-group-item-action available_sites" id="popcornphilosoph_link">Filme / Bücher</button>
                     <button type="button" class="list-group-item list-group-item-action available_sites" id="readspeed_link">Lesegeschwindigkeit</button>
@@ -114,8 +122,6 @@
                     <button type="button" class="list-group-item list-group-item-action available_sites" id="faq_link">FAQ</button>
                 </div>
             </div>
-
-            <span>Willst du etwas <a href="#" id="readspeed_button">cooles</a> sehen?</span>
         </div>
 
         <div class="container text-center mt-4">
@@ -142,8 +148,8 @@
         <?php include 'html/footer.php'; ?>
     </div>
 
-    <script type="application/x-javascript" src="Script/ButtonListeners/universalButtons.js"></script>
-    <script type="application/x-javascript" src="Script/ButtonListeners/home.js"></script>
+    <script type="application/x-javascript" src="https://weristmatthes.de/Script/ButtonListeners/universalButtons.js"></script>
+    <script type="application/x-javascript" src="https://weristmatthes.de/Script/ButtonListeners/home.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
