@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Morbus",
+        "path": "../Assets/books/morbus.jpg",
+        "rating": "",
+        "description": "Ziemlich cooler Film",
+        "bg_opacity": ".8"
+    },
+    {
+        "name": "Verbrechen",
+        "path": "../Assets/books/verbrechen.jpg",
+        "rating": "",
+        "description": "Definitiv empfehlenswert blablabla",
+        "bg_opacity": ".6"
+    },
+    {
+        "name": "Clean Code",
+        "path": "../Assets/books/clean_code.jpg",
+        "rating": "",
+        "description": "Ist ein Film",
+        "bg_opacity": ".4"
+    },
+    {
+        "name": "What Every Body Is Saying",
+        "path": "../Assets/books/what_every_body_is_saying.jpg",
+        "rating": "",
+        "description": "Ist ein Film",
+        "bg_opacity": ".3"
+    },
+    {
+        "name": "Surrounded By Idiots",
+        "path": "../Assets/books/surrounded_by_idiots.jpg",
+        "rating": "",
+        "description": "Ist ein Film",
+        "bg_opacity": ".1"
+    }
+]

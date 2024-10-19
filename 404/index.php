@@ -33,7 +33,7 @@
             </div>
 
             <div>
-                <button type="button" id="404_home_button" class="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-1 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mt-4">
+                <button type="button home_link" class="home_link text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-1 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mt-4">
                     Startseite
                 </button>
                 <p><small>Schau mal, ein Tailwind button!</small></p>
@@ -44,7 +44,6 @@
     </div>
 
     <script type="application/x-javascript" src="../Script/ButtonListeners/universalButtons.js"></script>
-    <script type="application/x-javascript" src="../Script/ButtonListeners/notFound404.js"></script>
     <script type="application/x-javascript" src="../Script/ReadSpeed/readSpeed.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

@@ -1,0 +1,73 @@
+[
+    {
+        "name": "Harold & Kumar - White Castle",
+        "path": "../Assets/movies/harold_kumar_white_castle.jpg",
+        "rating": "6/10",
+        "description": "Ziemlich cooler Film",
+        "bg_opacity": ".1"
+    },
+    {
+        "name": "Harold & Kumar - White Castle",
+        "path": "../Assets/movies/harold_kumar_escape_from_guantanamo.jpg",
+        "rating": "9/10",
+        "description": "Definitiv empfehlenswert blablabla",
+        "bg_opacity": ".2"
+    },
+    {
+        "name": "Harold & Kumar - White Castle",
+        "path": "../Assets/movies/harold_kumar_christmas.jpg",
+        "rating": "6.5/10",
+        "description": "Ziemlich cooler Film",
+        "bg_opacity": ".3"
+    },
+    {
+        "name": "Ghost Movie 1",
+        "path": "../Assets/movies/ghost_movie_1.jpg",
+        "rating": "8/10",
+        "description": "Definitiv empfehlenswert blablabla",
+        "bg_opacity": ".4"
+    },
+    {
+        "name": "Ghost Movie 2",
+        "path": "../Assets/movies/ghost_movie_2.jpg",
+        "rating": "8/10",
+        "description": "Ziemlich cooler Film",
+        "bg_opacity": ".5"
+    },
+    {
+        "name": "A Million Ways to Die in the West",
+        "path": "../Assets/movies/million_ways_to_die_in_the_west.jpg",
+        "rating": "8/10",
+        "description": "Definitiv empfehlenswert blablabla",
+        "bg_opacity": ".6"
+    },
+    {
+        "name": "Borat",
+        "path": "../Assets/movies/borat.jpg",
+        "rating": "4/10",
+        "description": "Ziemlich cooler Film",
+        "bg_opacity": ".7"
+    },
+    {
+        "name": "Central Intelligence",
+        "path": "../Assets/movies/central_intelligence.jpg",
+        "rating": "7/10",
+        "description": "Definitiv empfehlenswert blablabla",
+        "bg_opacity": ".8"
+    },
+    {
+        "name": "Night School",
+        "path": "../Assets/movies/night_school.jpg",
+        "rating": "6/10",
+        "description": "Ziemlich cooler Film",
+        "bg_opacity": ".9"
+    },
+    {
+        "name": "Der Diktator",
+        "path": "../Assets/movies/der_diktator.jpg",
+        "rating": "7/10",
+        "description": "Ziemlich cooler Film",
+        "bg_opacity": "1.0"
+    }
+    
+]

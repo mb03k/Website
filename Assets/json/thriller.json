@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Requiem for a Dream",
+        "path": "../Assets/movies/requiem_for_a_dream.jpg",
+        "rating": "9/10",
+        "description": "Ziemlich cooler Film",
+        "bg_opacity": ".6"
+    },
+    {
+        "name": "Hereditary",
+        "path": "../Assets/movies/hereditary.jpg",
+        "rating": "6/10",
+        "description": "Definitiv empfehlenswert blablabla",
+        "bg_opacity": ".4"
+    }
+]

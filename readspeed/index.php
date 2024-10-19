@@ -5,14 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meine Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">
     <link rel="stylesheet" href="../Style/style.css">
     <link rel="stylesheet" href="../Style/header.css">
-
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <!--<link rel="stylesheet" href="Style/homeScreenAnimations.css"> bereitet in der Form Design-Fehler (out-of-bildschirm)-->
 </head>
 
 <body class="gradient">
@@ -23,10 +20,16 @@
             <h2 class="text-light" style='margin-top:10px; line-height:0.95em; font-size: 4em; font-family: "Bebas Neue", sans-serif; font-weight: 400; font-style: normal;'>
                 Texte schneller lesen können... aber wie?!
             </h2>
-            <h2 class="text-light">Finde es heraus: gib einfach einen etwas längeren Text ein und lass ihn dir anzeigen</h2>
-            <textarea class="textarea form-control" id="input_text_readspeed" rows="6">
-Das ist eine Geschichte. Sie geht über Hoffnung. Als ich klein war, hatte ich nämlich einen Traum: schneller als jeder lesen zu können. Leider konnte ich es nie. Aber gut. Ich habe auch nie freiwillig gelesen. Aber jetzt lese ich sogar! Es gibt echt gute Bücher... bspw. war mein letztes Buch 'Verbrechen' von Ferdinand von Schirach. Sehr gut geschrieben. So wie dieser Text. Nur ein Scherz. Ich wünschte ich könnte mich auch so flüssig formulieren. Auf der anderen Seite sitze ich aber gerade hier: in Leipzig an einem Samstag um 16:43, schreibe diesen Text, während ich Musik höre und mein Mitbewohner gerade schläft. Warum sage ich das alles? Keine Ahnung. Das hat keinen Sinn. Aber es füllt den Text, den du gerade (hoffentlich) schneller lesen kannst :)</textarea>
-            <button class="btn btn-success" id="get_input_text_button">Anzeigen</button>
+
+            <h2 class="text-light">
+                Finde es heraus: gib einfach einen etwas längeren Text ein und lass ihn dir anzeigen
+            </h2>
+
+            <textarea class="textarea form-control" id="input_text_readspeed" rows="6">Das ist eine Geschichte. Sie geht über Hoffnung. Als ich klein war, hatte ich nämlich einen Traum: schneller als jeder lesen zu können. Leider konnte ich es nie. Aber gut. Ich habe auch nie freiwillig gelesen. Aber jetzt lese ich sogar! Es gibt echt gute Bücher... bspw. war mein letztes Buch 'Verbrechen' von Ferdinand von Schirach. Sehr gut geschrieben. So wie dieser Text. Nur ein Scherz. Ich wünschte ich könnte mich auch so flüssig formulieren. Auf der anderen Seite sitze ich aber gerade hier: in Leipzig an einem Samstag um 16:43, schreibe diesen Text, während ich Musik höre und mein Mitbewohner gerade schläft. Warum sage ich das alles? Keine Ahnung. Das hat keinen Sinn. Aber es füllt den Text, den du gerade (hoffentlich) schneller lesen kannst :)</textarea>
+
+            <div class="d-flex justify-content-center">
+                <button class="btn btn-success" id="get_input_text_button">Anzeigen</button>
+            </div>
 
             <br>
             <br>
@@ -34,7 +37,7 @@ Das ist eine Geschichte. Sie geht über Hoffnung. Als ich klein war, hatte ich n
             <h3 class="text-light">Dein Text - den du (hoffentlich) schneller lesen kannst:</h3>
 
             <div class="bg-light text-center" style="border-radius:10px;">
-                <p class="text-dark" id="upspeadedText"></p>
+                <p class="text-dark h" id="upspeadedText"></p>
 
                 <div class="spinner-border text-success" id="upspeadedText_spinner" style="margin:0.2em;width: 2rem; height: 2rem;" role="status">
                   <span class="visually-hidden">Loading...</span>

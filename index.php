@@ -13,10 +13,10 @@
                         Hallo, ich bin Matthes👋
                     </p>
                 </div>
-                <div class="">
-                    <p class="">
+                <div>
+                    <p>
                         Schlaue Menschen sagen, man sollte bei Webdesign zuerst für Handys
-                        Designen, und danach für PCs. Ich sage: we dont do that here
+                        Designen, und danach für PCs. Ich sage: we don't do that here
                         <img src="Assets/we_dont_do_that_here.jpg" class="rounded" style="width:50px;">
                     </p>
                 </div>
@@ -25,7 +25,7 @@
             <br>
 
             <div class="row text-dark text-center d-flex align-items-center" style="height:100%;">
-                <div class="col-md m-2 projectsContainer" id="currentProjects">
+                <div class="col-md m-2 projectsContainer projects_link">
                     <div class="col p-2">
                         <div class="rowOneCurrentProjects">
                             <h1>Aktuelle Projekte</h1>
@@ -84,7 +84,7 @@
                     </div>
                 </div>
 
-                <div class="col-md m-2 projectsContainer" id="aboutme">
+                <div class="col-md m-2 projectsContainer aboutme_link">
                     <div class="col rowThree p-2">
                         <h1>Über mich</h1>
                         Ich könnte hier viel schreiben. Ich bin ein Entrepreneur. Ich bin Gott. Ich bin alles.
@@ -115,11 +115,11 @@
             </p>
             <div class="mb-4" style="display: flex; justify-content: center;">
                 <div class="list-group w-75">
-                    <button type="button" class="list-group-item list-group-item-action available_sites" id="aboutme_link">Über mich</button>
-                    <button type="button" class="list-group-item list-group-item-action available_sites" id="popcornphilosoph_link">Filme / Bücher</button>
-                    <button type="button" class="list-group-item list-group-item-action available_sites" id="readspeed_link">Lesegeschwindigkeit</button>
-                    <button type="button" class="list-group-item list-group-item-action available_sites" id="projekte_link">Projekte</button>
-                    <button type="button" class="list-group-item list-group-item-action available_sites" id="faq_link">FAQ</button>
+                    <button type="button" class="list-group-item list-group-item-action available_sites aboutme_link" id="aboutme_link">Über mich</button>
+                    <button type="button" class="list-group-item list-group-item-action available_sites movies_link" id="popcornphilosoph_link">Filme / Bücher</button>
+                    <button type="button" class="list-group-item list-group-item-action available_sites readspeed_link" id="readspeed_link">Lesegeschwindigkeit</button>
+                    <button type="button" class="list-group-item list-group-item-action available_sites projects_link" id="projekte_link">Projekte</button>
+                    <button type="button" class="list-group-item list-group-item-action available_sites faq_link" id="faq_link">FAQ</button>
                 </div>
             </div>
         </div>
@@ -135,7 +135,7 @@
                 <p class="m-1 bootswindfont">
                     <span class="p-1 m-2 rounded bootswindhover" id="bootstrap_button">
                         Bootstrap
-                        <img src="Assets/bootstrap.png" style="width:35px;">
+                        <img src="Assets/bootstrap.png" class="mb-1" style="width:35px;">
                     </span>
 
                     <span class="p-1 m-2 rounded bootswindhover" id="tailwind_button">
@@ -145,11 +145,12 @@
                 </p>
             </div>
         </div>
+        
         <?php include 'html/footer.php'; ?>
     </div>
 
-    <script type="application/x-javascript" src="https://weristmatthes.de/Script/ButtonListeners/universalButtons.js"></script>
-    <script type="application/x-javascript" src="https://weristmatthes.de/Script/ButtonListeners/home.js"></script>
+    <script type="application/x-javascript" src="Script/ButtonListeners/universalButtons.js"></script>
+    <script type="application/x-javascript" src="Script/ButtonListeners/home.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

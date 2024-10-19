@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Eternal Sunshine of the Spotless Mind",
+        "path": "../Assets/movies/eternal_sunshine_of_the_spotless_mind.jpg",
+        "rating": "9.5/10",
+        "description": "Ziemlich cooler Film",
+        "bg_opacity": ".7"
+    },
+    {
+        "name": "Shutter Island",
+        "path": "../Assets/movies/shutter_island.jpg",
+        "rating": "9.5/10",
+        "description": "Definitiv empfehlenswert blablabla",
+        "bg_opacity": ".5"
+    },
+    {
+        "name": "Inception",
+        "path": "../Assets/movies/inception.jpg",
+        "rating": "9/10",
+        "description": "Ziemlich cooler Film",
+        "bg_opacity": ".7"
+    },
+    {
+        "name": "Butterfly Effect",
+        "path": "../Assets/movies/butterfly_effect.jpg",
+        "rating": "9/10",
+        "description": "Ziemlich cooler Film",
+        "bg_opacity": ".5"
+    },
+    {
+        "name": "Truman Show",
+        "path": "../Assets/movies/truman_show.jpg",
+        "rating": "8/10",
+        "description": "Ziemlich cooler Film",
+        "bg_opacity": "7"
+    }
+]

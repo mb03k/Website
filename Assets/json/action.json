@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Man from Toronto",
+        "path": "../Assets/movies/man_from_toronto.jpg",
+        "rating": "6/10",
+        "description": "Ziemlich cooler Film",
+        "bg_opacity": ".8"
+    },
+    {
+        "name": "Lift",
+        "path": "../Assets/movies/lift.jpg",
+        "rating": "5/10",
+        "description": "Definitiv empfehlenswert blablabla",
+        "bg_opacity": ".6"
+    },
+    {
+        "name": "kingsman",
+        "path": "../Assets/movies/kingsman.jpg",
+        "rating": "3/10",
+        "description": "Ist ein Film",
+        "bg_opacity": ".4"
+    }
+]

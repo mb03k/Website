@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Insidious",
+        "path": "../Assets/movies/insidious.jpg",
+        "rating": "9/10",
+        "description": "Ziemlich cooler Film",
+        "bg_opacity": ".6"
+    },
+    {
+        "name": "Conjuring - Die Heimsuchung",
+        "path": "../Assets/movies/conjuring_die_heimsuchung.jpg",
+        "rating": "9/10",
+        "description": "Definitiv empfehlenswert blablabla",
+        "bg_opacity": ".7"
+    },
+    {
+        "name": "Conjuring 2",
+        "path": "../Assets/movies/conjuring_2.jpg",
+        "rating": "8/10",
+        "description": "Definitiv empfehlenswert blablabla",
+        "bg_opacity": ".8"
+    },
+    {
+        "name": "Conjuring 3",
+        "path": "../Assets/movies/conjuring_3.jpg",
+        "rating": "7/10",
+        "description": "Definitiv empfehlenswert blablabla",
+        "bg_opacity": ".9"
+    },
+    {
+        "name": "The Nun",
+        "path": "../Assets/movies/the_nun.jpg",
+        "rating": "4/10",
+        "description": "Definitiv empfehlenswert blablabla",
+        "bg_opacity": "1"
+    }
+]
