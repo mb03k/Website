@@ -13,3 +13,7 @@ document.getElementById("get_input_text_button").onclick = function() {
 document.getElementById("input_text_readspeed").onclick = function() {
     selectTextarea();
 }
+
+document.getElementById("github_link_readspeed").onclick = function() {
+    window.open("https://github.com/mb03k/Website/blob/main/Script/ReadSpeed/readSpeed.js");
+}
