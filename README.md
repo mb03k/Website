@@ -37,7 +37,14 @@ npm start
 npm run format
 ```
 
-### Step 2: Increment version number
+### Step 2: Save changes
+
+```bash
+git add .
+git commit -m "Beschreibe hier kurz, was du geändert hast"
+```
+
+### Step 3: Increment version number
 
 ```bash
 npm version patch -> styling fixes, bugfixes ...
@@ -47,9 +54,8 @@ npm version minor -> new feature
 # 1.0.1 -> 1.1.0
 ```
 
-### Step 2: Save changes
+### Step 4: Push it!
 
 ```bash
-git add .
-git commit -m "Beschreibe hier kurz, was du geändert hast"
+git push --follow-tag
 ```

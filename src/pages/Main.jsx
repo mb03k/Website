@@ -1,6 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { Zap, Layout, Globe, ArrowRight } from "lucide-react";
+import {
+  Dataset,
+  Aboutme,
+  Projects,
+  Movies,
+} from "../components/ui/landingpage/featuregrid";
 
 const Main = () => {
   return (
@@ -46,7 +49,7 @@ const Main = () => {
         </h1>
 
         <p className="text-lg text-slate-600 mb-8 leading-relaxed max-w-2xl mx-auto">
-          Weristmatthes.de in ganz neuem style
+          weristmatthes.de in ganz neuem Style
         </p>
         <p className="text-lg text-slate-600 mb-8 leading-relaxed max-w-2xl mx-auto">
           Schau dich gerne um!
@@ -55,29 +58,29 @@ const Main = () => {
 
       <div className="relative z-10 container mx-auto px-6">
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="p-6 rounded-2xl cursor-pointer bg-white/60 backdrop-blur-md shadow-sm border border-white/50 hover:shadow-md transition-shadow duration-300">
-            <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center text-blue-600 mb-4">
-              <Zap className="w-5 h-5" />
-            </div>
-            <h3 className="font-bold mb-1 text-slate-900">Blitzschnell</h3>
-            <p className="text-sm text-slate-600">Optimiert für V8 Engines.</p>
-          </div>
+          {/* 
+          <Aboutme />
 
-          <div className="p-6 rounded-2xl cursor-pointer bg-white/60 backdrop-blur-md shadow-sm border border-white/50 hover:shadow-md transition-shadow duration-300">
-            <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center text-purple-600 mb-4">
-              <Layout className="w-5 h-5" />
-            </div>
-            <h3 className="font-bold mb-1 text-slate-900">Responsive</h3>
-            <p className="text-sm text-slate-600">Mobile First Ansatz.</p>
-          </div>
+          <Movies />
 
-          <div className="p-6 rounded-2xl cursor-pointer bg-white/60 backdrop-blur-md shadow-sm border border-white/50 hover:shadow-md transition-shadow duration-300">
-            <div className="w-10 h-10 bg-teal-100 rounded-lg flex items-center justify-center text-teal-600 mb-4">
-              <Globe className="w-5 h-5" />
+          <Projects /> */}
+
+          {Dataset.map((feature, index) => (
+            <div
+              key={index}
+              className="p-6 rounded-2xl cursor-pointer bg-white/60 backdrop-blur-md shadow-sm border border-white/50 hover:shadow-md transition-shadow duration-300"
+            >
+              <div
+                className={`w-10 h-10 rounded-lg flex items-center justify-center mb-4 ${feature.bg} ${feature.color}`}
+              >
+                {feature.icon}
+              </div>
+
+              <h3 className="font-bold mb-1 text-slate-900">{feature.title}</h3>
+              <p className="text-sm text-slate-600">{feature.text}</p>
             </div>
-            <h3 className="font-bold mb-1 text-slate-900">Modern</h3>
-            <p className="text-sm text-slate-600">React 18 & Tailwind.</p>
-          </div>
+          ))}
+          {/* neue karten: algorithmen und readspeed / bilder die ich so gemacht habe? */}
         </div>
       </div>
     </main>
