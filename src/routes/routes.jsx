@@ -1,6 +1,10 @@
 export const ROUTES = {
   HOME: "/",
-  PROJECTS: "/projects",
+  PROJECTS: "/projekte",
+  MOVIES: "/filme",
+  ABOUTME: "/aboutme",
+  ALGORITHMEN: "/algorithmen",
+  IMAGES: "/bilder",
   CANVAS: "/canvas",
 };
 

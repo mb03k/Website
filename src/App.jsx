@@ -5,6 +5,8 @@ import Projects from "./pages/Projects";
 import Header from "./components/layout/header";
 import Footer from "./components/layout/footer";
 import Canvas from "./pages/Canvas";
+import Movies from "./pages/Movies";
+import { ROUTES } from "./routes/routes";
 
 function App() {
   return (
@@ -12,9 +14,10 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path={"/canvas"} element={<Canvas />} />
+        <Route path={ROUTES.HOME} element={<Main />} />
+        <Route path={ROUTES.PROJECTS} element={<Projects />} />
+        <Route path={ROUTES.CANVAS} element={<Canvas />} />
+        <Route path={ROUTES.MOVIES} element={<Movies />} />
       </Routes>
 
       <Footer />

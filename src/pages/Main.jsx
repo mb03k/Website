@@ -1,9 +1,5 @@
-import {
-  Dataset,
-  Aboutme,
-  Projects,
-  Movies,
-} from "../components/ui/landingpage/featuregrid";
+import { Dataset } from "../components/ui/landingpage/featuregrid";
+import { Link } from "react-router-dom";
 
 const Main = () => {
   return (
@@ -14,17 +10,14 @@ const Main = () => {
           className="absolute top-[-10%] left-[-10%] w-3/4 h-3/4 rounded-full 
                                bg-violet-300/40 mix-blend-multiply blur-3xl opacity-70 animate-blob"
         ></div>
-
         <div
           className="absolute top-[-10%] right-[-10%] w-3/4 h-3/4 rounded-full 
                                bg-cyan-300/40 mix-blend-multiply blur-3xl opacity-70 animate-blob animation-delay-2000"
         ></div>
-
         <div
           className="absolute bottom-[-20%] left-[-10%] w-3/4 h-3/4 rounded-full 
                                bg-teal-200/40 mix-blend-multiply blur-3xl opacity-70 animate-blob animation-delay-4000"
         ></div>
-
         <div
           className="absolute bottom-[-20%] right-[-10%] w-3/4 h-3/4 rounded-full 
                                bg-orange-200/40 mix-blend-multiply blur-3xl opacity-70 animate-blob"
@@ -58,17 +51,11 @@ const Main = () => {
 
       <div className="relative z-10 container mx-auto px-6">
         <div className="grid md:grid-cols-3 gap-8">
-          {/* 
-          <Aboutme />
-
-          <Movies />
-
-          <Projects /> */}
-
           {Dataset.map((feature, index) => (
-            <div
+            <Link
+              to={feature.link}
               key={index}
-              className="p-6 rounded-2xl cursor-pointer bg-white/60 backdrop-blur-md shadow-sm border border-white/50 hover:shadow-md transition-shadow duration-300"
+              className="p-6 rounded-2xl cursor-pointer bg-white/60 backdrop-blur-md shadow-sm border border-white/50 hover:shadow-md transition-shadow duration-300 hover:bg-white/75"
             >
               <div
                 className={`w-10 h-10 rounded-lg flex items-center justify-center mb-4 ${feature.bg} ${feature.color}`}
@@ -78,9 +65,8 @@ const Main = () => {
 
               <h3 className="font-bold mb-1 text-slate-900">{feature.title}</h3>
               <p className="text-sm text-slate-600">{feature.text}</p>
-            </div>
+            </Link>
           ))}
-          {/* neue karten: algorithmen und readspeed / bilder die ich so gemacht habe? */}
         </div>
       </div>
     </main>
