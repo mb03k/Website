@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    /* Setzt die Grundfarbe für das gesamte Fenster, auch hinter React */
+    @apply bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-white;
+
+    /* Optional: Verhindert das 'Wackeln' bei schnellem Scrollen auf manchen Handys */
+    overscroll-behavior-y: none;
+  }
+}
+
+body {
+  background-color: #f8fafc;
+  transition: background-color 0.3s;
+}
+
+.dark body {
+  background-color: #020617;
+}
