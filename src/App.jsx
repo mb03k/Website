@@ -4,6 +4,7 @@ import Main from "./pages/Main";
 import Projects from "./pages/Projects";
 import Header from "./components/layout/header";
 import Footer from "./components/layout/footer";
+import Canvas from "./pages/Canvas";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path={"/canvas"} element={<Canvas />} />
       </Routes>
 
       <Footer />

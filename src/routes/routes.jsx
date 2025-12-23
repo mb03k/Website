@@ -1,6 +1,7 @@
 export const ROUTES = {
   HOME: "/",
   PROJECTS: "/projects",
+  CANVAS: "/canvas",
 };
 
 export const OUTER_ROUTES = {

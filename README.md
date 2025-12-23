@@ -28,3 +28,28 @@ This is a personal website hosted on a **TrueNAS home server**, currently built 
 npm install
 npm start
 ```
+
+## Deployment Workflow
+
+### Step 1: Code formatting (Prettier)
+
+```bash
+npm run format
+```
+
+### Step 2: Increment version number
+
+```bash
+npm version patch -> styling fixes, bugfixes ...
+# 1.0.0 -> 1.0.1
+
+npm version minor -> new feature
+# 1.0.1 -> 1.1.0
+```
+
+### Step 2: Save changes
+
+```bash
+git add .
+git commit -m "Beschreibe hier kurz, was du geändert hast"
+```
