@@ -6,12 +6,12 @@ This is a personal website hosted on a **TrueNAS home server**, currently built 
 
 - **Frontend:** React
 - **Planned Upgrade:** Next.js (for SSR, routing, and performance improvements)
-- **Server:** TrueNAS Home Server
+- **Server:** TrueNAS Home Server - DXP2800
 - **Deployment:** Self-hosted
 
 ## Purpose
 
-- Personal/home server dashboard or website
+- Personal/home server dashboard and website
 - Learning and experimentation with modern web technologies
 - Self-hosted infrastructure using TrueNAS
 
