@@ -1,23 +1,19 @@
-import React from "react";
+import { ROUTES } from "../../routes/routes";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="bg-slate-900 text-slate-400 py-8 mt-auto">
       <div className="container mx-auto px-6 flex flex-col items-center gap-6">
-        {/* 3 Links */}
         <div className="flex gap-8 text-sm font-medium">
-          <a href="#" className="hover:text-white transition">
+          <Link to={ROUTES.DATENSCHUTZ} className="hover:text-white transition">
             Datenschutz
-          </a>
-          <a href="#" className="hover:text-white transition">
-            Kontakt
-          </a>
-          <a href="#" className="hover:text-white transition">
+          </Link>
+          <Link to={ROUTES.IMPRESSUM} className="hover:text-white transition">
             Impressum
-          </a>
+          </Link>
         </div>
 
-        {/* Lizenz */}
         <div className="text-xs text-slate-500 text-center border-t border-slate-800 pt-6 w-full max-w-md">
           Lizenziert unter{" "}
           <a

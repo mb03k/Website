@@ -6,6 +6,8 @@ export const ROUTES = {
   ALGORITHMEN: "/algorithmen",
   IMAGES: "/bilder",
   CANVAS: "/canvas",
+  IMPRESSUM: "/impressum",
+  DATENSCHUTZ: "/datenschutz",
 };
 
 export const OUTER_ROUTES = {
