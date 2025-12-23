@@ -1,9 +1,10 @@
-import Header from '../components/layout/header';
-import Footer from '../components/layout/footer';
-import Projects from './Projects';
-
-import Main from './Main';
 import { Route, Routes } from 'react-router-dom';
+
+import Main from './pages/Main';
+import Projects from './pages/Projects';
+import Header from './components/layout/header';
+import Footer from './components/layout/footer';
+
 
 
 function App() {

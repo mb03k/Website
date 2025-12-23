@@ -46,15 +46,6 @@ const Main = () => {
             </div>
         </div>
 
-        <div className="text-center mt-12 mb-12">
-            <Link 
-            to="/projects" 
-            className="bg-slate-900 text-white px-8 py-3 rounded-full text-sm font-medium hover:bg-slate-700 transition shadow-lg shadow-slate-200 inline-flex items-center gap-2"
-            >
-                Hallo <ArrowRight className="w-4 h-4" />
-            </Link>
-        </div>
-
         </main>
     );
 };
