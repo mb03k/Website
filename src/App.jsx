@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import { ROUTES } from "./routes/routes";
 
 import Main from "./pages/Main";
 import Projects from "./pages/Projects";
@@ -6,18 +7,23 @@ import Header from "./components/layout/header";
 import Footer from "./components/layout/footer";
 import Canvas from "./pages/Canvas";
 import Movies from "./pages/Movies";
-import { ROUTES } from "./routes/routes";
+import Movieproposal from "./pages/Movieproposal";
+import EmployerLogin from "./pages/Portfolio";
+import ScrollToTop from "./features/ScrollToTop";
 
 function App() {
   return (
     <div className="flex flex-col min-h-screen bg-slate-50 text-slate-800 font-sans selection:bg-blue-100">
       <Header />
 
+      <ScrollToTop />
       <Routes>
         <Route path={ROUTES.HOME} element={<Main />} />
         <Route path={ROUTES.PROJECTS} element={<Projects />} />
         <Route path={ROUTES.CANVAS} element={<Canvas />} />
         <Route path={ROUTES.MOVIES} element={<Movies />} />
+        <Route path={ROUTES.MOVIEPROPOSAL} element={<Movieproposal />} />
+        <Route path={ROUTES.PORTFOLIO} element={<EmployerLogin />} />
       </Routes>
 
       <Footer />

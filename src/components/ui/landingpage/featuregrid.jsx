@@ -4,6 +4,7 @@ import {
   Clapperboard,
   Image as ImageIcon,
   Binary,
+  TextCursorInput,
 } from "lucide-react";
 import { ROUTES } from "../../../routes/routes";
 
@@ -47,5 +48,13 @@ export const Dataset = [
     bg: "bg-violet-100",
     color: "text-violet-600",
     link: ROUTES.ALGORITHMEN,
+  },
+  {
+    title: "Filmvorschlag",
+    text: "Gib mir einen Filmvorschlag!",
+    icon: <TextCursorInput className="w-5 h-5" />,
+    bg: "bg-violet-100",
+    color: "text-violet-600",
+    link: ROUTES.MOVIEPROPOSAL,
   },
 ];
