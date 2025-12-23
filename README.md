@@ -15,13 +15,6 @@ This is a personal website hosted on a **TrueNAS home server**, currently built 
 - Learning and experimentation with modern web technologies
 - Self-hosted infrastructure using TrueNAS
 
-## Roadmap
-
-- [ ] Migrate from React to Next.js
-- [ ] Add server-side rendering and API routes
-- [ ] Improve performance and SEO
-- [ ] Containerize deployment (Docker)
-
 ## Running Locally
 
 ```bash
