@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { flushSync } from "react-dom"; // WICHTIG: Importieren für sofortiges Update
 import { Moon, Sun } from "lucide-react";
 
 const ThemeToggle = () => {
@@ -21,7 +22,22 @@ const ThemeToggle = () => {
   }, [theme]);
 
   const toggleTheme = () => {
-    setTheme((prev) => (prev === "dark" ? "light" : "dark"));
+    const newTheme = theme === "dark" ? "light" : "dark";
+
+    // Überprüfen, ob der Browser die View Transitions API unterstützt
+    if (!document.startViewTransition) {
+      setTheme(newTheme);
+      return;
+    }
+
+    // Die View Transition starten
+    document.startViewTransition(() => {
+      // flushSync zwingt React, das Update SOFORT durchzuführen,
+      // bevor der Browser den Übergang berechnet.
+      flushSync(() => {
+        setTheme(newTheme);
+      });
+    });
   };
 
   return (

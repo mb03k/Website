@@ -88,7 +88,7 @@ const Main = () => {
         >
           <img
             src={IMAGE_PATH.LOGO_NEXTCLOUD_PNG}
-            alt="Beschreibung Bild 1"
+            alt="Nextcloud Logo"
             className="h-20 w-auto object-contain cursor-pointer hover:scale-105 transition-transform duration-300"
           />
         </a>
@@ -97,7 +97,20 @@ const Main = () => {
         <a target="_blank" rel="noopener noreferrer" href={OUTER_ROUTES.NGINX}>
           <img
             src={IMAGE_PATH.LOGO_NGINX_PNG}
-            alt="Beschreibung Bild 2"
+            alt="Nginx Logo"
+            className="h-20 w-auto object-contain cursor-pointer hover:scale-105 transition-transform duration-300"
+          />
+        </a>
+
+        {/* Jellyfin */}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href={OUTER_ROUTES.JELLIFYN}
+        >
+          <img
+            src={IMAGE_PATH.LOGO_JELLYFIN}
+            alt="Jellyfin Logo"
             className="h-20 w-auto object-contain cursor-pointer hover:scale-105 transition-transform duration-300"
           />
         </a>

@@ -18,4 +18,5 @@ export const OUTER_ROUTES = {
   CHESSCOM: "https://www.chess.com/member/mb03k",
   NEXTCLOUD: "https://nextcloud.weristmatthes.de",
   NGINX: "https://nginx.weristmatthes.de",
+  JELLIFYN: "https://jellyfin.weristmatthes.de",
 };

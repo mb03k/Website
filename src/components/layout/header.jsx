@@ -34,10 +34,10 @@ const Header = () => {
             href={OUTER_ROUTES.CHESSCOM}
             target="_blank"
             rel="noreferrer"
-            className="p-2 rounded-full transition-all duration-300 
-                       hover:bg-green-100 hover:text-green-600 
-                       dark:hover:bg-green-500/20 dark:hover:text-green-400 
-                       hover:scale-110"
+            className=" transition-all
+                        hover:text-green-600 
+                        dark:hover:text-green-400 
+                        hover:scale-110"
           >
             <ChessPawn className="w-6 h-6 sm:w-7 sm:h-7" />
           </a>
@@ -46,9 +46,9 @@ const Header = () => {
             href={OUTER_ROUTES.GITLAB}
             target="_blank"
             rel="noreferrer"
-            className="p-2 rounded-full transition-all duration-300 
-                       hover:bg-orange-100 hover:text-orange-600 
-                       dark:hover:bg-orange-500/20 dark:hover:text-orange-400 
+            className="transition-all
+                       hover:text-orange-600 
+                       dark:hover:text-orange-400 
                        hover:scale-110"
           >
             <Gitlab className="w-6 h-6 sm:w-7 sm:h-7" />
@@ -58,9 +58,9 @@ const Header = () => {
             href={OUTER_ROUTES.GITHUB}
             target="_blank"
             rel="noreferrer"
-            className="p-2 rounded-full transition-all duration-300 
-                       hover:bg-stone-200 hover:text-stone-600 
-                       dark:hover:bg-slate-700 dark:hover:text-white 
+            className="transition-all
+                       hover:text-stone-600 
+                       dark:hover:text-white 
                        hover:scale-110"
           >
             <Github className="w-6 h-6 sm:w-7 sm:h-7" />
