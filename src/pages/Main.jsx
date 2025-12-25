@@ -1,9 +1,11 @@
+import React, { useState } from "react";
+
 import { Dataset } from "../components/ui/landingpage/featuregrid";
 import { Link } from "react-router-dom";
-import { OUTER_ROUTES } from "../routes/routes";
-import { IMAGE_PATH } from "../routes/links";
+
 import ThemeToggle from "../components/layout/ThemeToggle";
 import BackgroundBlobs from "../components/ui/landingpage/coloredbackground";
+import Logos from "../components/ui/landingpage/logos";
 
 const Main = () => {
   return (
@@ -20,8 +22,8 @@ const Main = () => {
       <div className="relative z-10 container mx-auto text-center max-w-3xl mb-20">
         <div
           className="inline-flex items-center gap-2 px-3 py-1 rounded-full 
-                        bg-blue-50/80 border border-blue-100 text-blue-600 shadow-sm backdrop-blur-sm
-                        dark:bg-blue-900/30 dark:border-blue-800 dark:text-blue-300"
+                            bg-blue-50/80 border border-blue-100 text-blue-600 shadow-sm backdrop-blur-sm
+                            dark:bg-blue-900/30 dark:border-blue-800 dark:text-blue-300"
         >
           <span className="relative flex h-2 w-2">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
@@ -34,8 +36,8 @@ const Main = () => {
           Build your own{" "}
           <span
             className="text-transparent bg-clip-text bg-gradient-to-r 
-                           from-blue-600 to-violet-600
-                           dark:from-blue-400 dark:to-violet-400"
+                            from-blue-600 to-violet-600
+                            dark:from-blue-400 dark:to-violet-400"
           >
             dreams
           </span>
@@ -48,7 +50,7 @@ const Main = () => {
         </p>
 
         <p className="text-xl md:text-2xl text-slate-600 dark:text-slate-400 mb-8 leading-relaxed max-w-2xl mx-auto">
-          Schau dich gerne um!
+          Schau Dich gerne um!
         </p>
       </div>
 
@@ -59,8 +61,8 @@ const Main = () => {
               to={feature.link}
               key={index}
               className="p-6 rounded-2xl cursor-pointer shadow-sm transition-all duration-300 backdrop-blur-md
-                         bg-white/60 border border-white/50 hover:bg-white/75 hover:shadow-md
-                         dark:bg-slate-800/40 dark:border-white/10 dark:hover:bg-slate-800/60 dark:hover:border-white/20"
+                            bg-white/60 border border-white/50 hover:bg-white/75 hover:shadow-md
+                            dark:bg-slate-800/40 dark:border-white/10 dark:hover:bg-slate-800/60 dark:hover:border-white/20"
             >
               <div
                 className={`w-10 h-10 rounded-lg flex items-center justify-center mb-4 ${feature.bg} ${feature.color}`}
@@ -79,42 +81,7 @@ const Main = () => {
         </div>
       </div>
 
-      <div className="mt-24 mb-10 flex justify-center items-center gap-8 relative z-10">
-        {/* Nextcloud */}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href={OUTER_ROUTES.NEXTCLOUD}
-        >
-          <img
-            src={IMAGE_PATH.LOGO_NEXTCLOUD_PNG}
-            alt="Nextcloud Logo"
-            className="h-20 w-auto object-contain cursor-pointer hover:scale-105 transition-transform duration-300"
-          />
-        </a>
-
-        {/* Nginx */}
-        <a target="_blank" rel="noopener noreferrer" href={OUTER_ROUTES.NGINX}>
-          <img
-            src={IMAGE_PATH.LOGO_NGINX_PNG}
-            alt="Nginx Logo"
-            className="h-20 w-auto object-contain cursor-pointer hover:scale-105 transition-transform duration-300"
-          />
-        </a>
-
-        {/* Jellyfin */}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href={OUTER_ROUTES.JELLIFYN}
-        >
-          <img
-            src={IMAGE_PATH.LOGO_JELLYFIN}
-            alt="Jellyfin Logo"
-            className="h-20 w-auto object-contain cursor-pointer hover:scale-105 transition-transform duration-300"
-          />
-        </a>
-      </div>
+      <Logos />
     </main>
   );
 };
