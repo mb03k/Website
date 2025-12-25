@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React, { useState } from "react";
 import { Send, Film, MessageSquare, CheckCircle, Loader2 } from "lucide-react";
 
@@ -46,7 +46,7 @@ const Movieproposal = () => {
         </p>
       </div>
 
-      <div className="relative w-full max-w-lg overflow-hidden rounded-3xl border border-white/50 bg-white/60 p-8 shadow-xl backdrop-blur-xl md:p-10 dark:border-white/10 dark:bg-slate-900/60">
+      <div className="relative w-full max-w-lg overflow-hidden rounded-3xl border border-white/50 bg-white/60 p-8 shadow-xl backdrop-blur-xl dark:border-white/10 dark:bg-slate-900/60 md:p-10">
         {status !== "success" && (
           <form
             onSubmit={handleSubmit}

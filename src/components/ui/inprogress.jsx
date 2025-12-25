@@ -13,7 +13,7 @@ const InProgress = () => {
       </div>
 
       {/* --- CARD --- */}
-      <div className="relative w-full max-w-lg rounded-3xl border border-white/50 bg-white/60 p-8 text-center shadow-2xl backdrop-blur-xl md:p-12 dark:border-white/10 dark:bg-slate-900/60">
+      <div className="relative w-full max-w-lg rounded-3xl border border-white/50 bg-white/60 p-8 text-center shadow-2xl backdrop-blur-xl dark:border-white/10 dark:bg-slate-900/60 md:p-12">
         {/* Animated Icon Wrapper */}
         <div className="relative mb-8 inline-flex">
           <div className="rounded-2xl bg-orange-100 p-5 text-orange-600 shadow-inner dark:bg-orange-900/30 dark:text-orange-400">
@@ -27,7 +27,7 @@ const InProgress = () => {
         </div>
 
         {/* Text Content */}
-        <h1 className="mb-4 text-3xl font-bold text-slate-900 md:text-4xl dark:text-white">
+        <h1 className="mb-4 text-3xl font-bold text-slate-900 dark:text-white md:text-4xl">
           Hier wird noch gebaut!
         </h1>
 

@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import React, { useState } from "react";
 
@@ -12,7 +12,7 @@ const Logos = () => {
   return (
     <div>
       <div className="relative z-10 mb-16 mt-24 px-4">
-        <div className="mx-auto flex max-w-4xl flex-col items-center rounded-3xl border border-white/20 bg-white/40 p-8 shadow-xl backdrop-blur-lg md:p-12 dark:border-white/5 dark:bg-slate-900/40">
+        <div className="mx-auto flex max-w-4xl flex-col items-center rounded-3xl border border-white/20 bg-white/40 p-8 shadow-xl backdrop-blur-lg dark:border-white/5 dark:bg-slate-900/40 md:p-12">
           <div className="flex w-full flex-col items-center justify-center gap-10 md:flex-row md:gap-16">
             {/* Nginx */}
             <a

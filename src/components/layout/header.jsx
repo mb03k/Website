@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { Github, Gitlab, ChessPawn, House } from "lucide-react";
 import { OUTER_ROUTES, ROUTES } from "@/src/features/routing/routes";
@@ -37,7 +37,7 @@ const Header = () => {
           </Link>
         </div>
 
-        <div className="flex items-center gap-2 text-slate-500 sm:gap-4 dark:text-slate-400">
+        <div className="flex items-center gap-2 text-slate-500 dark:text-slate-400 sm:gap-4">
           <a
             href={OUTER_ROUTES.CHESSCOM}
             target="_blank"

@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import React from "react";
 import { useState } from "react";
@@ -35,7 +35,7 @@ const EmployerLogin = () => {
   };
 
   return (
-    <div className="flex min-h-screen w-full flex-col items-center bg-slate-50 px-4 pb-12 pt-24 transition-colors duration-300 md:pt-32 dark:bg-slate-950">
+    <div className="flex min-h-screen w-full flex-col items-center bg-slate-50 px-4 pb-12 pt-24 transition-colors duration-300 dark:bg-slate-950 md:pt-32">
       <div className="relative w-full max-w-sm rounded-3xl border border-white/20 bg-white/60 p-8 shadow-xl backdrop-blur-xl dark:border-white/10 dark:bg-slate-900/60">
         <BackgroundBlobs />
         <div className="mb-6 flex justify-center">

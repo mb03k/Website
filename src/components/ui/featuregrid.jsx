@@ -7,7 +7,7 @@ import {
   TextCursorInput,
 } from "lucide-react";
 
-import { ROUTES } from "@/src/features/routing/routes"
+import { ROUTES } from "@/src/features/routing/routes";
 
 export const Dataset = [
   {
