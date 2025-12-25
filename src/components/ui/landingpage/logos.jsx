@@ -1,7 +1,9 @@
+'use client';
+
 import React, { useState } from "react";
 
-import { OUTER_ROUTES } from "../../../routes/routes";
-import { IMAGE_PATH } from "../../../routes/links";
+import { OUTER_ROUTES } from "@/src/features/routing/routes";
+import { IMAGE_PATH } from "@/src/features/routing/links";
 import { CircleQuestionMark } from "lucide-react";
 import Modal from "../popup";
 

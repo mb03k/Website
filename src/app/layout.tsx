@@ -1,4 +1,6 @@
 import "@/src/styles/globals.css";
+import { ThemeProvider } from "@/src/components/ThemeProvider";
+
 import Header from "@/src/components/layout/header";
 import Footer from "@/src/components/layout/footer";
 
@@ -13,12 +15,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="de">
+    <html lang="de" suppressHydrationWarning>
       <body>
         <div className="flex min-h-screen flex-col font-sans text-slate-800 selection:bg-blue-100">
           <Header />
 
-          <main className="flex-grow">{children}</main>
+          <main className="flex-grow">
+            <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+                {children}
+            </ThemeProvider>
+          </main>
 
           <Footer />
         </div>

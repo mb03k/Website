@@ -1,4 +1,6 @@
-import InProgress from "../../../components/components/ui/inprogress";
+'use client';
+
+import InProgress from "@/src/components/ui/inprogress";
 
 const Algorithm = () => {
   return <InProgress />;

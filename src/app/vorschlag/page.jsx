@@ -1,3 +1,4 @@
+'use client';
 import React, { useState } from "react";
 import { Send, Film, MessageSquare, CheckCircle, Loader2 } from "lucide-react";
 

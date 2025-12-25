@@ -1,5 +1,7 @@
+'use client';
+
 import React from "react";
-import InProgress from "../../components/components/ui/inprogress";
+import InProgress from "@/src/components/ui/inprogress";
 
 const Images = () => {
   return <InProgress />;

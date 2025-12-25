@@ -1,6 +1,8 @@
+'use client';
+
 import React, { useState } from "react";
 import { Star, Filter, Clapperboard } from "lucide-react";
-import BackgroundBlobs from "../../../components/components/ui/landingpage/coloredbackground";
+import BackgroundBlobs from "@/src/components/ui/coloredbackground";
 
 const moviesData = [
   {

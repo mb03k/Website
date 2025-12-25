@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { Hammer, HardHat, ArrowLeft, Construction } from "lucide-react";
-import { ROUTES } from "../../routes/routes";
+import { ROUTES } from "@/src/features/routing/routes";
 
 const InProgress = () => {
   return (
@@ -45,7 +45,7 @@ const InProgress = () => {
 
         {/* Back Button */}
         <Link
-          to={ROUTES.HOME || "/"} // Fallback auf "/", falls ROUTES nicht importiert
+          href={ROUTES.HOME || "/"} // Fallback auf "/", falls ROUTES nicht importiert
           className="inline-flex items-center gap-2 rounded-full bg-slate-900 px-8 py-3 font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-slate-800 hover:shadow-lg dark:bg-white dark:text-slate-900 dark:hover:bg-slate-200"
         >
           <ArrowLeft className="h-4 w-4" />
