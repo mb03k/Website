@@ -10,10 +10,11 @@ import Movies from "./pages/Movies";
 import Movieproposal from "./pages/Movieproposal";
 import EmployerLogin from "./pages/Portfolio";
 import ScrollToTop from "./features/ScrollToTop";
+import Algorithm from "./pages/Algorithm";
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen bg-slate-50 text-slate-800 font-sans selection:bg-blue-100">
+    <div className="flex flex-col min-h-screen text-slate-800 font-sans selection:bg-blue-100">
       <Header />
 
       <ScrollToTop />
@@ -24,6 +25,7 @@ function App() {
         <Route path={ROUTES.MOVIES} element={<Movies />} />
         <Route path={ROUTES.MOVIEPROPOSAL} element={<Movieproposal />} />
         <Route path={ROUTES.PORTFOLIO} element={<EmployerLogin />} />
+        <Route path={ROUTES.ALGORITHMEN} element={<Algorithm />} />
       </Routes>
 
       <Footer />

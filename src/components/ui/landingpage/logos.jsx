@@ -28,7 +28,7 @@ const Logos = () => {
               <img
                 src={IMAGE_PATH.LOGO_NGINX_PNG}
                 alt="Nginx Logo"
-                className="h-20 md:h-24 w-auto object-contain cursor-pointer transition-all duration-300 
+                className="h-16 md:h-24 w-auto object-contain cursor-pointer transition-all duration-300 
                                         group-hover:scale-110 group-hover:drop-shadow-lg"
               />
             </a>
@@ -58,7 +58,7 @@ const Logos = () => {
               <img
                 src={IMAGE_PATH.LOGO_JELLYFIN}
                 alt="Jellyfin Logo"
-                className="h-20 md:h-24 w-auto object-contain cursor-pointer transition-all duration-300 
+                className="h-16 md:h-24 w-auto object-contain cursor-pointer transition-all duration-300 
                                         group-hover:scale-110 group-hover:drop-shadow-lg"
               />
             </a>
