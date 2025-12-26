@@ -52,7 +52,6 @@ const Movies = () => {
       ? moviesData
       : moviesData.filter((movie) => movie.category === activeCategory);
 
-  // Helfer für Rating-Farben (Jetzt mit Darkmode Klassen!)
   const getRatingColor = (rating) => {
     if (rating >= 8)
       return "bg-green-100 text-green-700 border-green-200 dark:bg-green-900/30 dark:text-green-400 dark:border-green-800";

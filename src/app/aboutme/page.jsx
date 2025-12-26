@@ -34,7 +34,7 @@ const AboutMe = () => {
                   <Sparkles className="h-3 w-3" /> About Me
                 </div>
 
-                <h2 className="mb-2 text-5xl font-black leading-tight text-white md:text-6xl">
+                <h2 className="mb-2 text-5xl text-6xl font-black leading-tight text-white">
                   Not just <br />
                   <span className="animate-gradient-x bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent">
                     Code.
@@ -65,10 +65,10 @@ const AboutMe = () => {
           </div>
 
           <div className="lg:col-span-7">
-            <div className="group relative h-full min-h-[500px] rounded-[2.5rem] border border-white/10 bg-gradient-to-br from-white/10 to-white/5 p-8 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] backdrop-blur-3xl md:p-12">
+            <div className="group relative h-full min-h-[500px] rounded-[2.5rem] border border-white/10 bg-gradient-to-br from-white/10 to-white/5 p-12 p-8 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] backdrop-blur-3xl">
               <div className="absolute right-0 top-0 h-32 w-32 rounded-bl-full bg-gradient-to-br from-white/20 to-transparent opacity-50"></div>
 
-              <div className="relative space-y-6 text-lg font-light leading-relaxed text-slate-300 md:text-xl">
+              <div className="relative space-y-6 text-lg text-xl font-light leading-relaxed text-slate-300">
                 <p>
                   <strong className="mb-2 block text-2xl font-bold text-white">
                     Hi, ich bin Matthes.

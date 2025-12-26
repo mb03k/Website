@@ -9,7 +9,7 @@ import "@/public/logos/logo_nextcloud.png";
 export default function HomePage() {
   const __APP_VERSION__ = process.env.NEXT_PUBLIC_APP_VERSION;
   return (
-    <main className="relative isolate flex-grow overflow-hidden bg-slate-50 px-6 pb-20 pt-32 transition-colors duration-300 dark:bg-slate-950">
+    <main className="relative isolate flex-grow overflow-hidden px-6 pb-20 pt-32 transition-colors duration-300 dark:bg-slate-950">
       <div>
         {/* blurry background */}
         <BackgroundBlobs />
