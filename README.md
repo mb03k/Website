@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Home Server Website
 
-## Getting Started
+This is a personal website hosted on a **TrueNAS home server**, currently built with **React** and planned to migrate to **Next.js** in the future.
 
-First, run the development server:
+## Tech Stack
+
+- **Frontend:** React
+- **Planned Upgrade:** Next.js (for SSR, routing, and performance improvements)
+- **Server:** TrueNAS Home Server - DXP2800
+- **Deployment:** Self-hosted
+
+## Purpose
+
+- Personal/home server dashboard and website
+- Learning and experimentation with modern web technologies
+- Self-hosted infrastructure using TrueNAS
+
+## Running Locally
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deployment Workflow
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Step 1: Code formatting (Prettier)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run format
+```
 
-## Learn More
+### Step 2: Save changes
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+git add .
+git commit -m "Beschreibe hier kurz, was du geändert hast"
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Step 3: Increment version number
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm version patch -> styling fixes, bugfixes ...
+# 1.0.0 -> 1.0.1
 
-## Deploy on Vercel
+npm version minor -> new feature
+# 1.0.1 -> 1.1.0
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Step 4: Push it!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+git push --follow-tag
+```

@@ -72,20 +72,6 @@ export default function HomePage() {
           ))}
         </div>
       </div>
-
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="@/public/logos/logo_jellyfin.png"
-        className="group"
-      >
-        <img
-          src="public/logos/logo_nextcloud.png"
-          alt="Nextcloud Logo"
-          className="h-20 w-auto cursor-pointer object-contain transition-all duration-300 group-hover:scale-110 group-hover:drop-shadow-lg md:h-24"
-        />
-      </a>
-
       <Logos />
     </main>
   );
