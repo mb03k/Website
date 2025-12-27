@@ -22,7 +22,7 @@ export default function RootLayout({
           <Header />
 
           <InitialLoader />
-          
+
           <main className="flex-grow">
             <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
               {children}

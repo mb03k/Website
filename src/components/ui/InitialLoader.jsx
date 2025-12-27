@@ -16,16 +16,16 @@ export default function InitialLoader() {
   }, []);
 
   if (!show) {
-    return null; 
+    return null;
   }
 
   return (
-    <div 
+    <div
       className={`fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-white transition-opacity duration-500 dark:bg-slate-950 ${
         mounted ? "opacity-0" : "opacity-100"
       }`}
     >
-      <h1 className="mb-8 text-2xl font-bold tracking-widest text-slate-900 dark:text-white animate-pulse">
+      <h1 className="mb-8 animate-pulse text-2xl font-bold tracking-widest text-slate-900 dark:text-white">
         loading...
       </h1>
 

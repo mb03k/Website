@@ -6,9 +6,12 @@ import HeroSection from "@/src/components/ui/landing/HeroSection";
 import FeatureGrid from "@/src/components/ui/landing/featuregrid";
 import Logos from "@/src/components/ui/landing/logos";
 
-const BackgroundBlobs = dynamic(() => import("@/src/components/ui/BackgroundBlobs"), { 
-  ssr: false,
-});
+const BackgroundBlobs = dynamic(
+  () => import("@/src/components/ui/BackgroundBlobs"),
+  {
+    ssr: false,
+  }
+);
 
 export default function HomePage() {
   return (
