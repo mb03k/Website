@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { Star, Filter, Clapperboard } from "lucide-react";
-import BackgroundBlobs from "@/src/components/ui/coloredbackground";
+import BackgroundBlobs from "@/src/components/ui/BackgroundBlobs";
 
 const moviesData = [
   {

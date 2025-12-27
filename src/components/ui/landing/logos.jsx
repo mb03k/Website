@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { OUTER_ROUTES } from "@/src/features/routing/routes";
 import { IMAGE_PATH } from "@/src/features/routing/links";
 import { CircleQuestionMark } from "lucide-react";
-import Modal from "../popup";
+import Modal from "@/src/components/ui/popup";
 
 const Logos = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);

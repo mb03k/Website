@@ -4,7 +4,7 @@ import React from "react";
 import { useState } from "react";
 import { Lock, ArrowRight } from "lucide-react";
 
-import BackgroundBlobs from "@/src/components/ui/coloredbackground";
+import BackgroundBlobs from "@/src/components/ui/BackgroundBlobs";
 
 const EmployerLogin = () => {
   const [inputPassword, setInputPassword] = useState("");

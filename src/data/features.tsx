@@ -9,7 +9,16 @@ import {
 
 import { ROUTES } from "@/src/features/routing/routes";
 
-export const Dataset = [
+export interface FeatureItem {
+  title: string;
+  text: string;
+  link: string;
+  icon: any;
+  bg: string;
+  color: string;
+}
+
+export const DATASET: FeatureItem[] = [
   {
     title: "About me",
     text: "Hallo, Du!",
