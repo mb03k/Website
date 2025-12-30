@@ -72,24 +72,6 @@ const EmployerLogin = () => {
           </button>
         </form>
       </div>
-
-      <div style={{ padding: "50px", textAlign: "center" }}>
-        <h1>Login Test</h1>
-        <input
-          type="password"
-          value={inputPassword}
-          onChange={(e) => setInputPassword(e.target.value)}
-          placeholder="Passwort eingeben"
-          style={{ padding: "10px", marginRight: "10px", color: "black" }}
-        />
-        <button onClick={checkPassword} style={{ padding: "10px 20px" }}>
-          Prüfen
-        </button>
-
-        {status && (
-          <p style={{ marginTop: "20px", fontWeight: "bold" }}>{status}</p>
-        )}
-      </div>
     </div>
   );
 };
