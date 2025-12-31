@@ -22,7 +22,6 @@ export const OUTER_ROUTES = {
     "https://gitlab.dit.htwk-leipzig.de/benjamin.kaden/mr.bam-hexabot-private-society",
   WEBSITE_REACT: "https://github.com/mb03k/Website",
   WEBSITE_PHP: "https://github.com/mb03k/Website_old",
-  BINARY_CLOCK: "https://www.htwk-leipzig.de/",
   SWP: "https://gitlab.dit.htwk-leipzig.de/projekt2025-h-hauk-betreuungsintelligenz/",
   CHESS: "https://github.com/mb03k/Schach",
   DAME: "https://github.com/mb03k/Dame",
