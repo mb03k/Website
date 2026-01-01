@@ -1,11 +1,10 @@
 # Home Server Website
 
-This is a personal website hosted on a **TrueNAS home server**, currently built with **React** and planned to migrate to **Next.js** in the future.
+This is a personal website hosted on a **TrueNAS home server**, built with **React**.
 
 ## Tech Stack
 
-- **Frontend:** React
-- **Planned Upgrade:** Next.js (for SSR, routing, and performance improvements)
+- **Frontend:** React, TailwindCSS
 - **Server:** TrueNAS Home Server - DXP2800
 - **Deployment:** Self-hosted
 
@@ -14,13 +13,6 @@ This is a personal website hosted on a **TrueNAS home server**, currently built 
 - Personal/home server dashboard and website
 - Learning and experimentation with modern web technologies
 - Self-hosted infrastructure using TrueNAS
-
-## Running Locally
-
-```bash
-npm install
-npm start
-```
 
 ## Deployment Workflow
 
@@ -34,7 +26,7 @@ npm run format
 
 ```bash
 git add .
-git commit -m "Beschreibe hier kurz, was du geändert hast"
+git commit -m "Docs: README"
 ```
 
 ### Step 3: Increment version number
