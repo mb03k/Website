@@ -14,7 +14,7 @@ const EmployerLogin = () => {
         </h1>
 
         <div className="text-lg leading-relaxed text-slate-600 dark:text-slate-300">
-          <div className="float-right mb-4 ml-6 w-32 md:w-48 lg:w-56">
+          <div className="float-right mb-4 ml-6 w-32 md:w-48">
             <div className="relative aspect-[4/5] overflow-hidden rounded-xl bg-slate-100 shadow-lg ring-1 ring-slate-900/10 dark:bg-slate-800 dark:ring-white/20">
               <Image
                 src={PORTFOLIO_ROUTES.APPLICATION_PHOTO}
@@ -50,15 +50,6 @@ const EmployerLogin = () => {
             <p className="font-medium text-slate-900 dark:text-white">
               Schau dich gerne um. Ich freue mich darauf, von dir zu hören!
             </p>
-          </div>
-
-          <div className="clear-both pt-8">
-            <a
-              href="mailto:deine-email@example.com"
-              className="inline-flex items-center justify-center rounded-md bg-slate-900 px-6 py-3 text-sm font-semibold text-white transition-transform hover:scale-105 hover:bg-slate-700 dark:bg-white dark:text-slate-900 dark:hover:bg-slate-200"
-            >
-              Kontakt aufnehmen
-            </a>
           </div>
         </div>
       </div>

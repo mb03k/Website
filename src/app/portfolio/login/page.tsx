@@ -1,9 +1,10 @@
 "use client";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useState, useTransition } from "react";
 
 import BackgroundBlobs from "@/src/components/ui/BackgroundBlobs";
 import { Lock, ArrowRight } from "lucide-react";
+import { ROUTES } from "@/src/features/routing/routes";
 
 export default function LoginPage() {
   const [password, setPassword] = useState("");
@@ -20,10 +21,9 @@ export default function LoginPage() {
     });
 
     if (res.ok) {
-      router.push("/portfolio");
-      router.refresh();
+      window.location.href = ROUTES.PORTFOLIO;
     } else {
-      setError("Das Passwort ist leider falsch.");
+      setError("Falsches Passwort.");
     }
   };
 
