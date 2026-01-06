@@ -31,21 +31,25 @@ const EmployerLogin = () => {
           </div>
 
           <div className="space-y-6">
+            <p>Sehr geehrte Damen und Herren,</p>
             <p>
-              Sehr geehrte Damen und Herren,
-            </p>
-            <p>
-              Mein Name ist Matthes Böttcher und ich studiere voller Leidenschaft Informatik im 5. Semester an der HTWK Leipzig.
+              Mein Name ist Matthes Böttcher und ich studiere voller
+              Leidenschaft Informatik im 5. Semester an der HTWK Leipzig.
               <br />
-              Auf Ihr Unternehmen bin ich durch einen Freund und Kommilitonen aufmerksam geworden. Seine Beschreibungen der 
-              technologisch spannenden Projekte und des wertschätzenden Miteinanders haben mich sofort angesprochen und motiviert, mich
-              bei Ihnen zu bewerben.
+              Auf Ihr Unternehmen bin ich durch einen Freund und Kommilitonen
+              aufmerksam geworden. Seine Beschreibungen der technologisch
+              spannenden Projekte und des wertschätzenden Miteinanders haben
+              mich sofort angesprochen und motiviert, mich bei Ihnen zu
+              bewerben.
             </p>
             <p>
-              Aktuell studiere ich Informatik, doch mir fehlt der praktische Bezug zur Industrie. Ich möchte nicht nur Code schreiben, 
-              der funktioniert, sondern lernen, wie man skalierbare, wartbare Software in einem professionellen Team entwickelt. Ich bringe 
-              ein solides Grundverständnis für moderne Frameworks und Containerisierung mit und brenne darauf, dieses Wissen in Ihren echten 
-              Kundenprojekten anzuwenden und an ihnen zu wachsen.
+              Aktuell studiere ich Informatik, doch mir fehlt der praktische
+              Bezug zur Industrie. Ich möchte nicht nur Code schreiben, der
+              funktioniert, sondern lernen, wie man skalierbare, wartbare
+              Software in einem professionellen Team entwickelt. Ich bringe ein
+              solides Grundverständnis für moderne Frameworks und
+              Containerisierung mit und brenne darauf, dieses Wissen in Ihren
+              echten Kundenprojekten anzuwenden und an ihnen zu wachsen.
             </p>
 
             <p></p>

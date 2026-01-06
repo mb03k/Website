@@ -31,7 +31,8 @@ export const PROJECTS: Project[] = [
       "Playwright",
       "Git",
     ],
-    videoLink: "https://drive.google.com/file/d/1tvg1roc18wBTk7I7Sz_bWQQqQjhZ4vK4/view",
+    videoLink:
+      "https://drive.google.com/file/d/1tvg1roc18wBTk7I7Sz_bWQQqQjhZ4vK4/view",
     gitlabLink: OUTER_ROUTES.SWP,
     date: "2025",
     universityLogo: IMAGE_ROUTES.HTWK,
@@ -51,14 +52,20 @@ export const PROJECTS: Project[] = [
     description:
       "Die Entwicklung einer modernen Website mit Fokus auf leichter Skalierbarkeit und Benutzerfreundlichkeit",
     imageUrl: IMAGE_ROUTES.WEBSITE_REACT,
-    techStack: ["React", "TypeScript", "Docker", "Cloudflare", "Tailwind", "TrueNAS"],
+    techStack: [
+      "React",
+      "TypeScript",
+      "Docker",
+      "Cloudflare",
+      "Tailwind",
+      "TrueNAS",
+    ],
     githubLink: OUTER_ROUTES.WEBSITE_REACT,
     date: "2025",
   },
   {
     title: "Website PHP",
-    description:
-      "Die erste Entwicklung einer größeren Website für Bewerbungen",
+    description: "Die erste Entwicklung einer größeren Website für Bewerbungen",
     imageUrl: IMAGE_ROUTES.WEBSITE_PHP,
     techStack: ["PHP", "Javascript", "CSS", "Bootstrap"],
     githubLink: OUTER_ROUTES.WEBSITE_PHP,
@@ -100,7 +107,8 @@ export const PROJECTS: Project[] = [
   },
   {
     title: "Schach",
-    description: "Mein absolutes Lieblingsspiel nachentwickeln. Stehengeblieben, mit Planung auf erneute Umsetzung",
+    description:
+      "Mein absolutes Lieblingsspiel nachentwickeln. Stehengeblieben, mit Planung auf erneute Umsetzung",
     imageUrl: IMAGE_ROUTES.CHESS,
     techStack: ["Java"],
     githubLink: OUTER_ROUTES.CHESS,
@@ -127,8 +135,7 @@ export const PROJECTS: Project[] = [
   },
   {
     title: "Würfel",
-    description:
-      "Ein digitaler Würfel, im Modul Hardwarepraktikum II ",
+    description: "Ein digitaler Würfel, im Modul Hardwarepraktikum II ",
     imageUrl: IMAGE_ROUTES.WUERFEL,
     techStack: ["Assembly", "C++"],
     date: "2024",
