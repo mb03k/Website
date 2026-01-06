@@ -3,9 +3,7 @@
 import { Github, Gitlab, ChessPawn, House } from "lucide-react";
 import { OUTER_ROUTES, ROUTES } from "@/src/features/routing/routes";
 import Link from "next/link";
-import ThemeToggle from "./ThemeToggle";
 import { useRouter } from "next/navigation";
-import { ArrowLeft } from "lucide-react";
 
 const Header = () => {
   const router = useRouter();

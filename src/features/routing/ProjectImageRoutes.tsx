@@ -14,6 +14,7 @@ export const IMAGE_ROUTES = {
   MULTIMENGEN: "/projects/multimengen.png",
   HTWK: "/logos/logo_htwk.png",
   IMAGE_MOVER: "/projects/image_mover.png",
+  HOMESERVER: "/projects/homeserver.png",
 };
 
 export const OUTER_ROUTES = {

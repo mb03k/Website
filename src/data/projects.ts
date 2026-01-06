@@ -8,8 +8,9 @@ export interface Project {
   description: string;
   imageUrl: string;
   techStack: string[];
-  liveLink?: string;
-  repoLink?: string;
+  videoLink?: string;
+  githubLink?: string;
+  gitlabLink?: string;
   date: string;
   universityLogo?: string;
 }
@@ -18,7 +19,7 @@ export const PROJECTS: Project[] = [
   {
     title: "Softwareprojekt I und II",
     description:
-      "Ein umfassendes Admin-Dashboard zur Verwaltung von Produkten und Bestellungen.",
+      "Entwicklung einer Betreeungsintelligenz (HauKI) für Rechtliche Betreuer",
     imageUrl: IMAGE_ROUTES.SWP,
     techStack: [
       "OpenWebUI",
@@ -30,111 +31,107 @@ export const PROJECTS: Project[] = [
       "Playwright",
       "Git",
     ],
-    liveLink: "https://demo.de",
-    repoLink: OUTER_ROUTES.SWP,
+    videoLink: "https://drive.google.com/file/d/1tvg1roc18wBTk7I7Sz_bWQQqQjhZ4vK4/view",
+    gitlabLink: OUTER_ROUTES.SWP,
     date: "2025",
-    universityLogo: "/logos/logo_htwk.png",
+    universityLogo: IMAGE_ROUTES.HTWK,
   },
   {
     title: "Hexabot",
     description:
-      "Interaktive Visualisierung von Sortieralgorithmen. Nutzer können die Geschwindigkeit steuern und Schritte einzeln durchgehen.",
+      "Ein sechsbeiniger Roboter der autonom via LiDAR-Scanner zu einer vordefinierten Position läuft. Entwicklung unter dem Modul Mobile Robotik (C010)",
     imageUrl: IMAGE_ROUTES.HEXABOT,
-    techStack: ["React", "Zustand", "Framer Motion"],
-    repoLink: OUTER_ROUTES.HEXABOT,
+    techStack: ["MicroPython", "Raspberry 5", "Servo2040", "Docker", "LiDAR"],
+    gitlabLink: OUTER_ROUTES.HEXABOT,
     date: "2025",
+    universityLogo: IMAGE_ROUTES.HTWK,
   },
   {
     title: "Website React",
     description:
-      "Interaktive Visualisierung von Sortieralgorithmen. Nutzer können die Geschwindigkeit steuern und Schritte einzeln durchgehen.",
+      "Die Entwicklung einer modernen Website mit Fokus auf leichter Skalierbarkeit und Benutzerfreundlichkeit",
     imageUrl: IMAGE_ROUTES.WEBSITE_REACT,
-    techStack: ["React", "Zustand", "Framer Motion"],
-    repoLink: OUTER_ROUTES.WEBSITE_REACT,
+    techStack: ["React", "TypeScript", "Docker", "Cloudflare", "Tailwind", "TrueNAS"],
+    githubLink: OUTER_ROUTES.WEBSITE_REACT,
     date: "2025",
   },
   {
     title: "Website PHP",
     description:
-      "Interaktive Visualisierung von Sortieralgorithmen. Nutzer können die Geschwindigkeit steuern und Schritte einzeln durchgehen.",
+      "Die erste Entwicklung einer größeren Website für Bewerbungen",
     imageUrl: IMAGE_ROUTES.WEBSITE_PHP,
-    techStack: ["React", "Zustand", "Framer Motion"],
-    repoLink: OUTER_ROUTES.WEBSITE_PHP,
+    techStack: ["PHP", "Javascript", "CSS", "Bootstrap"],
+    githubLink: OUTER_ROUTES.WEBSITE_PHP,
+    date: "2025",
+  },
+  {
+    title: "Homeserver",
+    description:
+      "Ein persönliches Projekt, digitale Freiheit nach hause zu bringen. Websitehosting, Mediaserver sowie VSC-Host",
+    imageUrl: IMAGE_ROUTES.HOMESERVER,
+    techStack: ["DXP2800", "Docker", "Nginx"],
     date: "2025",
   },
   {
     title: "Image Mover",
     description:
-      "Interaktive Visualisierung von Sortieralgorithmen. Nutzer können die Geschwindigkeit steuern und Schritte einzeln durchgehen.",
+      "Lernen von Python anhand einer simplen Idee: Bilder aus einem Ordner in einen anderen kopieren",
     imageUrl: IMAGE_ROUTES.IMAGE_MOVER,
-    techStack: ["Python"],
-    repoLink: OUTER_ROUTES.IMAGE_MOVER,
+    techStack: ["Python", "Bash"],
+    githubLink: OUTER_ROUTES.IMAGE_MOVER,
     date: "2025",
   },
   {
     title: "Bluetooth Audio Controller",
     description:
-      "Interaktive Visualisierung von Sortieralgorithmen. Nutzer können die Geschwindigkeit steuern und Schritte einzeln durchgehen.",
+      "Ein Controller um per Button die Handylautstärke für Musik zu kontrollieren",
     imageUrl: IMAGE_ROUTES.BLUETOOTH_AUDIO_CONTROLLER,
-    techStack: ["C"],
+    techStack: ["C", "C++", "ESP32", "Bluetooth Low Energy - BLE"],
     date: "2025",
   },
   {
     title: "Binähruhr",
     description:
-      "Interaktive Visualisierung von Sortieralgorithmen. Nutzer können die Geschwindigkeit steuern und Schritte einzeln durchgehen.",
+      "Entwicklung einer Uhr im Zuge des Moduls Systemnahe Programmierung - mit individuell gefräster Platine und Software",
     imageUrl: IMAGE_ROUTES.BINARY_CLOCK,
-    techStack: ["React", "Zustand", "Framer Motion"],
+    techStack: ["C", "C++", "ATMega48", "KiCad"],
     date: "2024",
+    universityLogo: IMAGE_ROUTES.HTWK,
   },
   {
     title: "Schach",
-    description: "LIEBLINGSspiel",
+    description: "Mein absolutes Lieblingsspiel nachentwickeln. Stehengeblieben, mit Planung auf erneute Umsetzung",
     imageUrl: IMAGE_ROUTES.CHESS,
-    techStack: ["React", "Zustand", "Framer Motion"],
-    repoLink: OUTER_ROUTES.CHESS,
+    techStack: ["Java"],
+    githubLink: OUTER_ROUTES.CHESS,
     date: "2024",
   },
   {
     title: "Dame",
     description:
-      "Interaktive Visualisierung von Sortieralgorithmen. Nutzer können die Geschwindigkeit steuern und Schritte einzeln durchgehen.",
+      "Abschlussprojekt für das Modul Anwendungsorientierte Programmierung II",
     imageUrl: IMAGE_ROUTES.DAME,
-    techStack: ["React", "Zustand", "Framer Motion"],
-    repoLink: OUTER_ROUTES.DAME,
+    techStack: ["Java"],
+    githubLink: OUTER_ROUTES.DAME,
     date: "2024",
+    universityLogo: OUTER_ROUTES.HTWK,
   },
   {
     title: "Taschenrechner",
     description:
-      "Interaktive Visualisierung von Sortieralgorithmen. Nutzer können die Geschwindigkeit steuern und Schritte einzeln durchgehen.",
+      "Ein rudimentäres Projekt um ein mal einen Taschenrechner gebaut zu haben",
     imageUrl: IMAGE_ROUTES.CALCULATOR,
-    techStack: ["React", "Zustand", "Framer Motion"],
-    repoLink: OUTER_ROUTES.CALCULATOR,
+    techStack: ["Java"],
+    githubLink: IMAGE_ROUTES.CALCULATOR,
     date: "2024",
   },
   {
     title: "Würfel",
     description:
-      "Interaktive Visualisierung von Sortieralgorithmen. Nutzer können die Geschwindigkeit steuern und Schritte einzeln durchgehen.",
+      "Ein digitaler Würfel, im Modul Hardwarepraktikum II ",
     imageUrl: IMAGE_ROUTES.WUERFEL,
-    techStack: ["React", "Zustand", "Framer Motion"],
+    techStack: ["Assembly", "C++"],
     date: "2024",
-  },
-  {
-    title: "Drone",
-    description:
-      "Interaktive Visualisierung von Sortieralgorithmen. Nutzer können die Geschwindigkeit steuern und Schritte einzeln durchgehen.",
-    imageUrl: IMAGE_ROUTES.DRONE,
-    techStack: ["React", "Zustand", "Framer Motion"],
-    date: "2024",
-  },
-  {
-    title: "Multimengen",
-    description:
-      "Interaktive Visualisierung von Sortieralgorithmen. Nutzer können die Geschwindigkeit steuern und Schritte einzeln durchgehen.",
-    imageUrl: IMAGE_ROUTES.MULTIMENGEN,
-    techStack: ["React", "Zustand", "Framer Motion"],
-    date: "2024",
+    universityLogo: IMAGE_ROUTES.HTWK,
   },
 ];

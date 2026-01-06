@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ExternalLink, Github, Calendar } from "lucide-react";
+import { Github, Calendar, Film, Gitlab } from "lucide-react";
 import { Project } from "@/src/data/projects";
 import {
   IMAGE_ROUTES,
@@ -53,23 +53,33 @@ export default function ProjectCard({ project }: { project: Project }) {
         </div>
 
         <div className="mt-auto flex items-center gap-4 border-t border-slate-100 pt-4 dark:border-slate-800">
-          {project.liveLink && (
+          {project.videoLink && (
             <Link
-              href={project.liveLink}
+              href={project.videoLink}
               target="_blank"
               className="flex items-center gap-2 text-sm font-medium text-blue-600 hover:text-blue-700 dark:text-blue-400"
             >
-              <ExternalLink className="h-4 w-4" />
-              Demo
+              <Film className="h-4 w-4" />
+              Video
             </Link>
           )}
-          {project.repoLink && (
+          {project.githubLink && (
             <Link
-              href={project.repoLink}
+              href={project.githubLink}
               target="_blank"
               className="flex items-center gap-2 text-sm font-medium text-slate-600 hover:text-slate-900 dark:text-slate-400"
             >
               <Github className="h-4 w-4" />
+              Code
+            </Link>
+          )}
+          {project.gitlabLink && (
+            <Link
+              href={project.gitlabLink}
+              target="_blank"
+              className="flex items-center gap-2 text-sm font-medium text-slate-600 hover:text-slate-900 dark:text-slate-400"
+            >
+              <Gitlab className="h-4 w-4" />
               Code
             </Link>
           )}

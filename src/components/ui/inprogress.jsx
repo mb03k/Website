@@ -1,9 +1,9 @@
 import React from "react";
-import Link from "next/link";
-import { Hammer, HardHat, ArrowLeft, Construction } from "lucide-react";
-import { ROUTES } from "@/src/features/routing/routes";
+import { Hammer, ArrowLeft, Construction } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 const InProgress = () => {
+  const router = useRouter();
   return (
     <div className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-6 pb-20 pt-32 font-sans">
       <div className="relative w-full max-w-lg rounded-3xl border border-white/50 bg-white/60 p-8 text-center shadow-2xl backdrop-blur-xl dark:border-white/10 dark:bg-slate-900/60 md:p-12">
@@ -31,13 +31,13 @@ const InProgress = () => {
           </div>
         </div>
 
-        <Link
-          href={ROUTES.HOME}
+        <button
+          onClick={() => router.back()}
           className="inline-flex items-center gap-2 rounded-full bg-slate-900 px-8 py-3 font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-slate-800 hover:shadow-lg dark:bg-white dark:text-slate-900 dark:hover:bg-slate-200"
         >
           <ArrowLeft className="h-4 w-4" />
           Zurück zur Startseite
-        </Link>
+        </button>
       </div>
     </div>
   );

@@ -26,10 +26,6 @@ export default function HeroSection() {
         .
       </h1>
 
-      <p className="mx-auto mb-4 max-w-2xl text-xl leading-relaxed text-slate-600 dark:text-slate-400 md:text-2xl">
-        weristmatthes.de in ganz neuem Style
-      </p>
-
       <p className="mx-auto mb-8 max-w-2xl text-xl leading-relaxed text-slate-600 dark:text-slate-400 md:text-2xl">
         Schau Dich gerne um!
       </p>
