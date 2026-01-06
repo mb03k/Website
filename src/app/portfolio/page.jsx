@@ -9,9 +9,13 @@ const EmployerLogin = () => {
   return (
     <main className="min-h-screen bg-white px-6 py-24 transition-colors duration-300 dark:bg-slate-950 md:px-12 lg:px-24">
       <div className="mx-auto max-w-4xl">
-        <h1 className="mb-8 text-4xl font-extrabold tracking-tight text-slate-900 dark:text-white sm:text-5xl">
-          Herzlich Willkommen.
-        </h1>
+        <h2 className="mb-2 text-4xl font-extrabold tracking-tight text-slate-900 dark:text-white sm:text-5xl">
+          Bewerbung um eine Stelle als Werkstudent
+        </h2>
+
+        <p className="mb-8 text-xl font-medium text-slate-600 dark:text-slate-400 sm:text-2xl">
+          Lipsia Digital Leipzig
+        </p>
 
         <div className="text-lg leading-relaxed text-slate-600 dark:text-slate-300">
           <div className="float-right mb-4 ml-6 w-32 md:w-48">
@@ -28,28 +32,23 @@ const EmployerLogin = () => {
 
           <div className="space-y-6">
             <p>
-              Hallo! Ich bin [Dein Name], ein passionierter Entwickler mit einem
-              Fokus auf moderne Webtechnologien. Es freut mich sehr, dass du den
-              Weg zu meinem geschützten Portfolio gefunden hast.
+              Sehr geehrte Damen und Herren,
             </p>
             <p>
-              Dieses Projekt hier ist nicht nur eine bloße Auflistung meiner
-              Arbeiten, sondern selbst ein Beispiel meiner Fähigkeiten. Es wurde
-              mit <strong>Next.js (App Router)</strong>, <strong>React</strong>{" "}
-              und <strong>Tailwind CSS</strong> entwickelt. Besonders stolz bin
-              ich auf die Implementierung der robusten
-              Middleware-Authentifizierung und das Hosting in einem eigenen{" "}
-              <strong>TrueNAS Container</strong>.
+              Mein Name ist Matthes Böttcher und ich studiere voller Leidenschaft Informatik im 5. Semester an der HTWK Leipzig.
+              <br />
+              Auf Ihr Unternehmen bin ich durch einen Freund und Kommilitonen aufmerksam geworden. Seine Beschreibungen der 
+              technologisch spannenden Projekte und des wertschätzenden Miteinanders haben mich sofort angesprochen und motiviert, mich
+              bei Ihnen zu bewerben.
             </p>
             <p>
-              Mein Ziel ist es, performante, sichere und ästhetisch ansprechende
-              digitale Erlebnisse zu schaffen. Ich liebe es, komplexe Probleme
-              zu lösen und dabei stets die User Experience im Blick zu behalten
-              – egal ob im hellen Tageslicht oder spät nachts im Darkmode.
+              Aktuell studiere ich Informatik, doch mir fehlt der praktische Bezug zur Industrie. Ich möchte nicht nur Code schreiben, 
+              der funktioniert, sondern lernen, wie man skalierbare, wartbare Software in einem professionellen Team entwickelt. Ich bringe 
+              ein solides Grundverständnis für moderne Frameworks und Containerisierung mit und brenne darauf, dieses Wissen in Ihren echten 
+              Kundenprojekten anzuwenden und an ihnen zu wachsen.
             </p>
-            <p className="font-medium text-slate-900 dark:text-white">
-              Schau dich gerne um. Ich freue mich darauf, von dir zu hören!
-            </p>
+
+            <p></p>
           </div>
         </div>
       </div>

@@ -17,18 +17,10 @@ export default function DatenschutzPage() {
         </div>
       </div>
 
-      {/* Hauptinhalt */}
       <main className="container mx-auto max-w-3xl px-4 py-12">
-        {/* Hier passiert die Magie: 
-            'prose' stylt alles automatisch.
-            'prose-slate' setzt die Farben auf Slate-Grau.
-            'dark:prose-invert' dreht die Farben für den Darkmode um.
-        */}
         <article className="prose prose-slate max-w-none dark:prose-invert prose-headings:scroll-mt-20 prose-a:text-blue-600 hover:prose-a:text-blue-500 dark:prose-a:text-blue-400">
-          {/* --- DEIN INHALT START --- */}
           <div>
             <h1 className="sr-only">Datenschutzerklärung Details</h1>{" "}
-            {/* Visuell versteckt, da oben schon H1 */}
             <h2 id="m716">Präambel</h2>
             <p>
               Mit der folgenden Datenschutzerklärung möchten wir Sie darüber
@@ -44,7 +36,6 @@ export default function DatenschutzPage() {
             </p>
             <p>Die verwendeten Begriffe sind nicht geschlechtsspezifisch.</p>
             <p>Stand: 26. Dezember 2025</p>
-            {/* Das Inhaltsverzeichnis schön stylen */}
             <div className="my-8 rounded-xl border border-slate-200 bg-slate-50 p-6 dark:border-slate-800 dark:bg-slate-900">
               <h2 className="!mt-0 text-xl font-semibold">Inhaltsübersicht</h2>
               <ul className="index !mb-0 grid gap-1 !pl-0">
@@ -99,11 +90,6 @@ export default function DatenschutzPage() {
             <p>
               Matthes Böttcher
               <br />
-              Breslauer Straße 18
-              <br />
-              04299 Leipzig
-            </p>
-            <p>
               E-Mail-Adresse:{" "}
               <a href="mailto:matthesboettcher@gmail.com">
                 matthesboettcher@gmail.com

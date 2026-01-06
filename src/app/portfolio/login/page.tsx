@@ -51,7 +51,7 @@ export default function LoginPage() {
             <input
               type="password"
               placeholder="••••"
-              maxLength={6}
+              maxLength={10}
               onChange={(e) => setPassword(e.target.value)}
               className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-4 text-center text-2xl font-bold tracking-[0.5em] text-slate-900 placeholder-slate-300 shadow-inner transition-all focus:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-slate-700 dark:bg-slate-800/50 dark:text-white dark:placeholder-slate-600"
             />

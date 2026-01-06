@@ -7,10 +7,10 @@ const AboutMe = () => {
   return (
     <div className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-black px-4 py-20 sm:px-6">
       <div className="pointer-events-none absolute left-0 top-0 z-10 h-24 w-full bg-gradient-to-b from-slate-50 via-slate-50/60 to-transparent dark:from-black dark:via-black/60"></div>
-      <div className="pointer-events-none absolute inset-0 h-full w-full overflow-hidden">
-        <div className="absolute left-[-20%] top-[-20%] h-[80vw] w-[80vw] animate-[pulse_6s_cubic-bezier(0.4,0,0.6,1)_infinite] rounded-full bg-purple-600/30 mix-blend-screen blur-[100px]"></div>
-        <div className="absolute bottom-[-20%] right-[-20%] h-[80vw] w-[80vw] animate-[pulse_6s_cubic-bezier(0.4,0,0.6,1)_infinite] rounded-full bg-cyan-600/30 mix-blend-screen blur-[100px] delay-1000"></div>
-        <div className="animate-spin-slow absolute left-[30%] top-[30%] h-[60vw] w-[60vw] rounded-full bg-pink-600/20 mix-blend-screen blur-[120px]"></div>
+      <div className="pointer-events-none absolute inset-0 h-full w-full overflow-hidden bg-white dark:bg-slate-950">
+        <div className="absolute left-[-50%] top-[-20%] h-[150vw] w-[150vw] animate-[pulse_6s_cubic-bezier(0.4,0,0.6,1)_infinite] rounded-full bg-purple-600/40 blur-[60px] md:left-[-20%] md:h-[80vw] md:w-[80vw] md:bg-purple-600/30 md:blur-[100px] md:mix-blend-screen dark:bg-purple-600/30 dark:mix-blend-screen"></div>
+        <div className="absolute bottom-[-20%] right-[-50%] h-[150vw] w-[150vw] animate-[pulse_6s_cubic-bezier(0.4,0,0.6,1)_infinite] rounded-full bg-cyan-600/40 delay-1000 blur-[60px] md:right-[-20%] md:h-[80vw] md:w-[80vw] md:bg-cyan-600/30 md:blur-[100px] md:mix-blend-screen dark:bg-cyan-600/30 dark:mix-blend-screen"></div>
+        <div className="animate-spin-slow absolute left-[10%] top-[30%] h-[120vw] w-[120vw] rounded-full bg-pink-600/30 blur-[80px] md:left-[30%] md:h-[60vw] md:w-[60vw] md:bg-pink-600/20 md:blur-[120px] md:mix-blend-screen dark:bg-pink-600/20 dark:mix-blend-screen"></div>
         <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.05]"></div>
       </div>
 
@@ -41,7 +41,7 @@ const AboutMe = () => {
                   </span>
                 </h2>
                 <p className="text-lg text-slate-400">
-                  Ich baue digitale Erlebnisse, die im Gedächtnis bleiben.
+                  Digitale Erlebnisse, die im Gedächtnis bleiben.
                 </p>
               </div>
             </div>
